@@ -1,0 +1,115 @@
+
+
+
+
+/*内容开始*/
+	.gh-fk{
+		overflow: hidden;
+		margin-top: .27rem;
+	}
+	.gh-fk>a{
+		color: #fff;
+		background: #585858;
+		padding: .16rem .25rem;
+		margin: 0 .56rem 0 0;
+		float: right;
+	}
+	section{
+		width: 100%;
+		padding: .22rem .16rem;
+		box-sizing:border-box;
+		font-size: .26rem;
+		margin-bottom: 1rem;
+		margin-top: 1.4rem;
+		
+	}
+	section>ul>li{
+		background: #fff;
+		/*height: 3.48rem;*/
+		padding: .26rem .19rem;
+		box-sizing:border-box;
+		margin-bottom: .16rem;
+	}
+	section>ul>li>.gh-top{
+		overflow: hidden;
+		border-bottom: 1px solid #7C7C7C;
+		padding-bottom: .16rem;
+		box-sizing:border-box;
+		position: relative;
+	}
+	section>ul>li>.gh-top>.gh-left{
+		float:left;
+	}
+	section>ul>li>.gh-top>.gh-left>span{
+		font-weight: bold;
+		color: #7C7C7C;
+		position: absolute;
+		left: .88rem;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		height: .42rem;
+	}
+
+	section>ul>li>.gh-top>.gh-left>img{
+		width: .71rem;
+		height: .63rem;
+	}
+	section>ul>li>.gh-top>.gh-right{
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		height: .42rem;
+		color: #B5CF97;
+	}
+	section>ul>li>.gh-center>p{
+		color: #7C7C7C;
+		line-height: 0.6rem;
+	}
+	section>ul>li>.gh-center>p:nth-child(1){
+		line-height: 1.5;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp:2;
+		-webkit-box-orient:vertical;
+	}
+
+	section>ul>li>.gh-center>p>a{
+		color: #7C7C7C;
+	}
+	section>ul>li>.gh-center>p:last-child{
+		margin-top: -.06rem;
+	}
+	section>ul>li>.gh-bom{
+		/*margin-top: -.14rem;*/
+		overflow: hidden;
+	}
+	section>ul>li>.gh-bom>.gh-left{
+		float: left;
+		color: #7C7C7C;
+	}
+	section>ul>li>.gh-bom>.gh-right{
+		float: right;
+		color: #F01919;
+	}
+	section>ul>li>.gh-bom.cancel{
+		position: relative;
+		overflow: visible;
+		margin-bottom: .6rem
+	}
+
+	section>ul>li>.gh-bom>.gh-right.cancel{
+		float: right;
+		color: #fff;
+		background: #074D67;
+		padding: .16rem .29rem;
+		position: absolute;
+		right: 0;
+		top: -.16rem;
+	}
+	
+
+/*内容结束*/

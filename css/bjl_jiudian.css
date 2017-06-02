@@ -1,0 +1,1729 @@
+/*-----------------------------------------------------*/
+/*---------------- 酒店category页面CSS ----------------*/
+/*-----------------------------------------------------*/
+/*基本*/
+	body{
+		background: #F7F7F7;
+	}
+	@font-face {
+    /* font-properties */
+	    font-family: pictos;
+	    src:url('../fonts/AgencyFB.ttf');
+	}
+/*-----------------------------------------------------*/
+/*头部*/
+	.bjl-head-box{
+		width: 100%;
+		height: 1.2rem;
+		background: url(../image/bjl_01.jpg) repeat;
+		overflow: hidden;
+	}
+	.bjl-head-box .head{
+		width: 7.02rem;
+		height: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.bjl-head-box .head .back{
+		display: block;
+		width: .4rem;
+		height: .4rem;
+		margin:.22rem 0 0 0;
+		float: left;
+	}
+	.bjl-head-box .head .back img{
+		width: 100%;
+	}
+	.bjl-head-box .head .title{
+		font-size: 20px;
+		line-height: .88rem;
+		color: #fff;
+		margin:.0 0 0 2.6rem;
+	}
+/*-----------------------------------------------------*/
+/*导航*/
+	.bjl-nav-box{
+		width: 100%;
+		height: .68rem;
+		position: absolute;
+		top: .88rem;
+	}
+	.bjl-nav-box ul{
+		width: 7.02rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.bjl-nav-box ul li{
+		width: 2.32rem;
+		height: 100%;
+		margin-right: 0.03rem;
+		background: #FFFFFF;
+		float: left;
+		line-height: .68rem;
+		text-align: center;
+		box-shadow: 0 0 3px #666;
+	}
+	.bjl-nav-box ul li a{
+		font-size: 13px;
+		color: #999;
+	}
+	.bjl-nav-box ul .active{
+		background: #66CBE8;
+	}
+	.bjl-nav-box ul .active a{
+		color: #fff;
+	}
+	.bjl-nav-box ul li:last-child{
+		margin-right: 0;
+	}
+/*-----------------------------------------------------*/
+/*内容列表*/
+	.bjl-content-box{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+		margin-top: .64rem;
+		overflow: hidden;
+	}
+	.bjl-content-box .bjl-content-category{
+		width: 21.06rem;
+		height: auto;
+		overflow: hidden;
+		transition:all 0.5s;
+		-webkit-transition:all 0.5s;
+	}
+	.bjl-content-box ul{
+		width: 7.02rem;
+		height: auto;
+		float: left;
+		overflow: hidden;
+	}
+	.bjl-content-box ul li{
+		width: 100%;
+		height: 1.87rem;
+		margin-bottom: .2rem;
+		background: url(../image/bjl_09.png) no-repeat right top;
+	}
+	.bjl-content-box ul li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.bjl-content-box ul li a .left{
+		width: 2.71rem;
+		height: 1.83rem;
+		float: left;
+		margin-top: .04rem;
+		border-top-left-radius: .1rem;
+		border-bottom-left-radius: 0.1rem;
+		overflow: hidden;
+	}
+	.bjl-content-box ul li a .left img{
+		height: 100%;
+	}
+	/*右边文字*/
+	.bjl-content-box .right{
+		width: 2.56rem;
+		height: 1.83rem;
+		float: left;
+		margin-top: .04rem;
+		margin-left: .17rem;
+		/*background:red;*/
+	}
+	.bjl-content-box .right h2{
+		width:100%;
+		margin-top: .18rem;
+		height: .38rem;
+		font-size: 14px;
+		line-height: .38rem;
+		color: #DCB51B;
+	}
+	.bjl-content-box .right h2 span{
+		font-size: 14px;
+		line-height: .38rem;
+		color: #333;
+	}
+	.bjl-content-box .right h3{
+		width:100%;
+		height: .26rem;
+		line-height: .26rem;
+		margin-top: .06rem;
+		font-size: 12px;
+		color: #505050;
+		font-weight: 600;
+		overflow: hidden;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+	}
+	.bjl-content-box .right h3 span{
+		font-size: 12px;
+		color: #505050;
+		font-weight: 400;
+	}
+	.bjl-content-box .right .hr{
+		width: 100%;
+		height: .02rem;
+		background: #BFBFBF;
+		margin: .1rem 0;
+	}
+	.bjl-content-box .right .zan{
+		width: 100%;
+		height: .22rem;
+		font-size: 10px;
+		color: #333;
+	}
+	.bjl-content-box .right .zan .pingfen{
+		font-size: 14px;
+		line-height: .22rem;
+		color: #DCB51B;
+		font-weight: 600;
+		font-family: pictos;
+	}
+	.bjl-content-box .right .zan i{
+		font-style: normal;
+		color: #BFBFBF;
+		font-size: 10px;
+	}
+	.bjl-content-box .right .zan .num{
+		color: #333;
+		font-size: 10px;
+		font-family: pictos;
+	}
+	.bjl-content-box .right p{
+		width: 100%;
+		height: 2rem;
+		color: #333;
+		font-size: 10px;
+		margin-top:.15rem; 
+		overflow: hidden;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+	}
+	.bjl-content-box .right p span{
+		color: #DCB51B;
+		font-size: 10px;
+	}
+	/*阴影*/
+	.bjl-content-box .yinying{
+		width: .12rem;
+		height: 1.83rem;
+		float: left;
+		margin-top: .04rem;
+		margin-left: .1rem;
+		float: left;
+		overflow: hidden;
+	}
+	.bjl-content-box .yinying img{
+		height: 100%;
+	}
+	/*时间*/
+	.bjl-content-box .time{
+		width: 34px;
+		height: 35px;
+		position: absolute;
+		top: 0;
+		right: 24px;
+		text-align: center;
+		line-height: 17px;
+		font-size: 12px;
+		color: #505050;
+		background: #FCC71F;
+	}
+	.bjl-content-box .time span{
+		text-align: center;
+		line-height: .37rem;
+		font-size: 10px;
+		color: #505050;
+		font-family: pictos;
+	}
+	.bjl-content-box .ollsale{
+		width: .86rem;
+		height: .32rem;
+		position: absolute;
+		top: 1.04rem;
+		right: 20px;
+		font-size: 14px;
+		color: #505050;
+		font-family: pictos;
+	}
+	.bjl-content-box .ollsale b{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		font-family: pictos;
+	} 
+	.bjl-content-box .newsale,.del{
+		width: .86rem;
+		height: .32rem;
+		position: absolute;
+		font-size: 14px;
+		top: 1.42rem;
+		right: 20px;
+		color: #505050;
+		font-family: pictos;
+	}
+	.bjl-content-box .newsale del{
+		font-size: 14px;
+		font-family: pictos;
+	}
+	.downmenu{
+		width: 7.02rem;
+		height: .3rem;
+		margin-top: .6rem;
+		line-height: .3rem;
+		font-size: 12px;
+		color: #BBBBBB;
+		text-align: center;
+	}
+	.downmenu a{
+		font-size: 12px;
+		color: #BBBBBB;
+	}
+/*-----------------------------------------------------*/
+/*------------------ 酒店list页面CSS ------------------*/
+/*-----------------------------------------------------*/
+/*banner*/
+	.bjl-banner-box{
+		width: 100%;
+		height: 8.1rem;
+		overflow: hidden;
+		margin-bottom: .44rem;
+		margin-top: 1rem;
+	}
+	/*轮播图*/
+	.bjl-banner-box .image-box{
+		width: 7.02rem;
+		height: 5.8rem;
+		margin: 0 auto;
+		position: relative;
+	}
+	.bjl-banner-box .image-box ul li{
+		width: 6.54rem;
+		height: 5.23rem;
+		position: absolute;
+		left: 50%;
+		margin-left: -3rem;
+		top: .18rem;
+		transition:all 1s;
+	}
+	.bjl-banner-box .image-box ul li img{
+		width:100%;
+	}
+	/*图文详情*/
+	.bjl-banner-box .show-box{
+		width:6.92rem;
+		height: 2.6rem;
+		margin: 0 auto;
+	}
+	.bjl-banner-box .show-box .box-left{
+		width:100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+	.bjl-banner-box .show-box .box-left h2{
+		width:100%;
+		height: .52rem;
+		line-height: .52rem;
+		font-size: 18px;
+		color: #403E3E;
+	}
+	.bjl-banner-box .show-box .box-left .left-info{
+		width:100%;
+		height: .32rem;
+		padding-left: .3rem;
+		line-height: .32rem;
+		font-size: 10px;
+		color: #555353;
+		position: relative;
+		margin-top: 0.03rem;
+	}
+	.bjl-banner-box .show-box .box-left .left-info span{
+		width:.2rem;
+		height: .2rem;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -0.12rem;
+	}
+	.bjl-banner-box .show-box .box-left .left-info span img{
+		display: block;
+		width:100%;
+		height: 100%;
+	}
+	.bjl-banner-box .show-box .box-left .left-info i{
+		font-style: normal;
+		line-height: .32rem;
+		font-size: 10px;
+		color: #DB940A;
+	}
+	.bjl-banner-box .show-box .box-left .sale{
+		width: 100%;
+		height: .38rem;
+		margin-top: .04rem;
+	}
+	.bjl-banner-box .show-box .box-left .sale .num{
+		display: block;
+		width: 1.14rem;
+		height: 100%;
+		line-height: .38rem;
+		font-size: 18px;
+		float: left;
+		color: #D71111;
+		font-weight: 700;
+		font-family: pictos;
+	}
+	.bjl-banner-box .show-box .box-left .sale .zhekou{
+		display: block;
+		width: 1.3rem;
+		height: .3rem;
+		line-height: .3rem;
+		font-size: 10px;
+		float: left;
+		color: #DB940A;
+		text-align: center;
+		border: 1px solid #DB940A;
+		margin-top: 0.04rem;
+		margin-left: 0.12rem;
+	}
+	.bjl-banner-box .show-box .box-left .sale .yajin{
+		color: #DB590A;
+		border: 1px solid #DB590A;
+		margin-left: 0.08rem;
+	}
+	.bjl-banner-box .show-box .fix-xianshi{
+		width: .85rem;
+		height: .44rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+		text-align: center;
+		line-height: .44rem;
+		color: #CC1A1A;
+	}
+	.bjl-banner-box .show-box .fix-qianggou{
+		width: .85rem;
+		height: .44rem;
+		position: absolute;
+		right: 0;
+		top: .48rem;
+		text-align: center;
+		line-height: .44rem;
+		color: #CC1A1A;
+	}
+	.bjl-banner-box .show-box .shanchu{
+		width:100%;
+		height: .32rem;
+		line-height: .32rem;
+		font-size: 10px;
+		color: #868383;
+		position: relative;
+		margin-top: 0.03rem;
+		text-decoration: line-through;
+	}
+	.bjl-banner-box .show-box .shanchu span{
+		line-height: .32rem;
+		font-size: 12px;
+		color: #868383;
+		font-family: pictos;
+	}
+	.bjl-banner-box .show-box .shoucang{
+		width: 1.1rem;
+		height: .48rem;
+		position: absolute;
+		right: 0;
+		bottom: .5rem;
+	}
+	.bjl-banner-box .show-box .shoucang a{
+		display: block;
+		float: left;
+		width: 0.55rem;
+		height: .48rem;
+	}
+	.bjl-banner-box .show-box .shoucang  a img{
+		width: 100%;
+	}
+/*-----------------------------------------------------*/
+/*房间展示*/
+	.bjl-room-show{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.bjl-room-show .title{
+		width: 7.02rem;
+		height: .8rem;
+		margin-bottom: .2rem;
+	}
+	.bjl-room-show .title img{
+		height: 100%;
+	}
+	.bjl-room-show .content{
+		width:100%;
+		height: auto;
+	}
+	.bjl-room-show .content li{
+		width: 50%;
+		height: 2.95rem;
+		float: left;
+		padding: .3rem;
+	}
+	.bjl-room-show .content li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.bjl-room-show .content li a img{
+		width: 100%;
+	}
+/*-----------------------------------------------------*/
+/*用户评价*/
+	.bjl-user-eval{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+	}
+	.bjl-user-eval .title{
+		width: 100%;
+		height: 1.2rem;
+	}
+	.bjl-user-eval .title img{
+		height: 100%;
+	}
+	.bjl-user-eval .content{
+		width: 100%;
+		height: auto;
+		margin-top: .3rem;
+	}
+	.bjl-user-eval .content li{
+		width: 100%;
+		height: 1.32rem;
+		background: #fff;
+		border-radius: .1rem;
+		margin-bottom: .1rem;
+		position: relative;
+	}
+	.bjl-user-eval .content li .left{
+		width: 1.26rem;
+		height: 1.32rem;
+		float: left;
+		padding: 0.06rem;
+		overflow: hidden;
+		
+	}
+	.bjl-user-eval .content li .left a{
+		width: 100%;
+		display: block;
+		height:1.2rem;
+		overflow: hidden;
+	}
+	.bjl-user-eval .content li .left a img{
+		width: 100%;
+		/*height: 100%;*/
+		border-radius:.1rem;
+	}
+	.bjl-user-eval .content li .right{
+		width: 4.25rem;
+		height: 100%;
+		float: left;
+		margin-left: .22rem;
+		/*background:red;*/
+	}
+	.bjl-user-eval .content li .right dt{
+		width: 100%;
+		height: .42rem;
+		margin-top: .15rem;
+		color: #525252;
+		font-size: 14px;
+		line-height: .42rem;
+		font-weight: 700;
+	}
+	.bjl-user-eval .content li .right dd{
+		width: 100%;
+		height: .42rem;
+		color: #8F8F8F;
+		font-size: 10px;
+		line-height: .34rem;
+	}
+	.bjl-user-eval .content li .time{
+		width: 1.6rem;
+		height: .4rem;
+		position:absolute;
+		top: 0.17rem;
+		right: 0;
+		background: #FF2A70;
+		color: #fff;
+		text-align: center;
+		line-height: .4rem;
+		border-top-left-radius: .08rem;
+		border-bottom-left-radius: .08rem;
+		font-size:10px; 
+	}
+	.bjl-user-eval .content li .icon{
+		width: 2.2rem;
+		height: .35rem;
+		position:absolute;
+		bottom:.08rem;
+		right: 0;
+		line-height: .35rem;
+		font-size:10px; 
+	}
+	.bjl-user-eval .content li .icon .iconbox{
+		width: .7rem;
+		height:100%;
+		float: left;
+		text-align: center;
+	}
+	.bjl-user-eval .content li .icon .iconbox img{
+		height: 100%;
+	}
+	.bjl-user-eval .content li .icon span{
+		margin-left: .25rem;
+		height: 100%;
+		line-height: .35rem;
+		font-size: 10px;
+		color: #8F8F8F;
+		letter-spacing: 0;
+	}
+/*-----------------------------------------------------*/
+/*------------------ 酒店show页面CSS ------------------*/
+/*-----------------------------------------------------*/
+/*头部*/
+	.bjl-order-head{
+		width: 7.5rem;
+		height: 1rem;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align: center;
+		line-height: 1rem;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		background: url(../image/bjl_01.jpg) repeat;
+	}
+	.bjl-order-head .back{
+		display: block;
+		width: .4rem;
+		height: .4rem;
+		position: absolute;
+		left: .25rem;
+		top: .3rem;		
+	}
+	.bjl-order-head .back img{
+		width: 100%;
+	}
+	.bjl-order-head .title{
+		display: inline-block;
+		padding-top: .24rem;
+	}
+	.bjl-order-head .title dt{
+		height: .3rem;
+		font-size: 12px;
+		line-height: .3rem;
+		color: #fff;
+	}
+	.bjl-order-head .title span{
+		width: .52rem;
+		height: .04rem;
+		position: absolute;
+		left: 50%;
+		margin-left: -.26rem;
+		top: .12rem;
+		background: url(../image/bjl_66.png);
+	}
+	.bjl-bighead-box{
+		width: 100%;
+		height: 2.88rem;
+		padding-top: 1px;
+		background: url(../image/bjl_01.jpg) repeat;
+	}
+	.bjl-bighead-box .ordertitle{
+		width: 5.9rem;
+		height: .74rem;
+		margin: 0 auto;
+		margin-top: 1.15rem;
+	}
+	.bjl-bighead-box .ordertitle .left{
+		width: .74rem;
+		height: .74rem;
+		float: left;
+	}
+	.bjl-bighead-box .ordertitle .left img{
+		width: 100%;
+	}
+	.bjl-bighead-box .ordertitle .right{
+		width: 4rem;
+		height: .74rem;
+		float: left;
+		margin-left: .25rem;
+		position: relative;
+	}
+	.bjl-bighead-box .ordertitle .right div{
+		width: 100%;
+		height: .34rem;
+		color: #fff;
+		line-height: .34rem;
+		font-size: 16px;
+	}
+	.bjl-bighead-box .ordertitle .right p{
+		width: 3rem;
+		height: .4rem;
+		color: #fff;
+		line-height: .4rem;
+		font-size: 11px;
+		margin-top: .05rem;
+		float: left;
+	}
+	.bjl-bighead-box .ordertitle .right .xingjione{
+		width: .24rem;
+		height: .24rem;
+		position: absolute;
+		left: 3.2rem;
+		bottom: 0.15rem;
+	}
+	.bjl-bighead-box .ordertitle .right .xingjitwo{
+		width: .24rem;
+		height: .24rem;
+		position: absolute;
+		left: 3.5rem;
+		bottom: 0.15rem;
+	}
+	.bjl-bighead-box .ordertitle .right span img{
+		width: .24rem;
+		height: .24rem;
+	}
+/*-----------------------------------------------------*/
+/*订单图文*/
+	.bjl-order-title{
+		width: 6.74rem;
+		height: 3.10rem;
+		position: absolute;
+		left: 50%;
+		margin-left: -3.37rem;
+		top:2.1rem ;
+		background: url(../image/bjl_65.png) center top/cover;
+	}
+/*-----------------------------------------------------*/
+/*订单详情*/
+	.bjl-order-payment{
+		width: 6rem;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: 2.8rem;
+		/*background: red;*/
+	}
+	.bjl-order-payment .paytitle{
+		width: 100%;
+		height: .9rem;
+		/*background: green;*/
+	}
+	.bjl-order-payment .paytitle .left{
+		width: 2rem;
+		height: .52rem;
+		float: left;
+		background: url(../image/bjl_35_02.png) no-repeat center left ;
+		padding-left: .6rem;
+	}
+	.bjl-order-payment .paytitle .left dt{
+		color:#878787 ;
+		font-size: 14px;
+		line-height: .3rem;
+	} 
+	.bjl-order-payment .paytitle .left dd{
+		width: 1rem;
+		color:#878787 ;
+		font-size: 10px;
+		line-height: .3rem;
+		margin-top: .05rem;
+	} 
+	.bjl-order-payment .paytitle .left dd span{
+		color:#878787 ;
+		font-size: 10px;
+		line-height: .3rem;
+		font-weight: 600;
+	} 
+	.bjl-order-payment .paytitle .rightorder{
+		width: 3.4rem;
+		height: .52rem;
+		float: right;
+	} 
+	.bjl-order-payment .paytitle .rightorder dt{
+		font-size: 10px;
+		color:#C6C6C6;
+		line-height: .3rem;
+		text-align: right;
+	} 
+	.bjl-order-payment .paytitle .rightorder dd{
+		font-size: 10px;
+		color:#C6C6C6;
+		line-height: .3rem;
+		text-align: right;
+	} 
+	/*第一行--价格*/
+	.bjl-order-payment .form{
+		width: 6rem;
+		height: .6rem;
+		border-bottom: 1px solid #D8D8D8;
+		margin: 0 auto;
+	} 
+	.bjl-order-payment .form .zongjia{
+		width: 2.5rem;
+		height: 100%;
+		line-height: .6rem;
+		font-size: 13px;
+		color: #969696;
+		float: left;
+	} 
+	.bjl-order-payment .form .zongjianum{
+		width: 2.5rem;
+		height: 100%;
+		line-height: .6rem;
+		font-size: 13px;
+		color: #969696;
+		float: right;
+		text-align: right;
+		font-family: pictos;
+	}
+	/*第二行*/
+	.bjl-order-payment .form .youhuinum{
+		width: 2.2rem;
+		height: .44rem;
+		line-height: .44rem;
+		font-size: 12px;
+		background: #FA9F1C;
+		color: #969696;
+		float: right;
+		text-align: center;
+		border-radius: .22rem;
+		color: #fff;
+		margin: 0.08rem 0;
+	}
+	/*第三行*/
+	.bjl-order-payment .orderbtn{
+		width: 5.8rem;
+		height: .6rem;
+		margin: 0 auto;
+		margin-top: .48rem;
+		/*background: red;*/
+	}
+	.bjl-order-payment .orderbtn .btnLeft{
+		width: 3rem;
+		height: 100%;
+		float: left;
+	}
+	.bjl-order-payment .orderbtn .btnLeft .youhui{
+		text-align: .3rem;
+		color: #E10F0F;
+		font-size:14px;
+	}
+	.bjl-order-payment .orderbtn .btnLeft .yingwen{
+		height: .35rem;
+		text-align: .35rem;
+		color: #E10F0F;
+		font-size:10px;
+	}
+	.bjl-order-payment .orderbtn .btnLeft .yingwen span{
+		text-align: .3rem;
+		color: #E10F0F;
+		font-size:10px;
+		font-weight: 700;
+	}
+	.bjl-order-payment .orderbtn .btnRight{
+		width: 2rem;
+		height: .6rem;
+		float: right;
+	}
+	.bjl-order-payment .orderbtn .btnRight span{
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: .6rem;
+		color: #E10F0F;
+		font-size:24px;
+		text-align: right;
+		font-family: pictos;
+	}
+/*-----------------------------------------------------*/
+/*阴影效果*/
+	.bjl-order-yinying{
+		width: 7.5rem;
+		height: .56rem;
+		background: url(../image/bjl_64.png) no-repeat center center/contain;
+	}
+/*-----------------------------------------------------*/
+/*订单内容*/
+	.bjl_order-content{
+		width:100% ;
+		height: auto;
+		background: #fff;
+		overflow: hidden;
+		margin-bottom: .98rem;
+	}
+	.bjl_order-content .container{
+		width:5.8rem;
+		height: 100%;
+		margin: 0 auto;
+		padding-top: 1px;
+		position: relative;
+	}
+	.bjl_order-content .container-fluidA{
+		width:100% ;
+		height:1.7rem;
+		border-bottom: 1px solid #E9E9E9;
+	}
+	.bjl_order-content .container .list{
+		width:5rem;
+		height:.3rem;
+		margin-left: .3rem;
+		margin-top: .22rem;
+		position: relative;
+		font-size: 14px;
+		color: #7B7B7B;
+		line-height: .3rem;
+	}
+	/*小英文标题*/
+	.bjl_order-content .container .smtitle{
+		width:5rem;
+		height:.3rem;
+		padding-bottom: .4rem;
+		margin-left: .3rem;
+		margin-top: .05rem;
+		font-size: 10px;
+		color: #C8C8C8;
+		line-height: .3rem;
+		border-bottom:1px dashed #CECECE;
+	}
+	.bjl_order-content .container-fluidB .container .smtitle{
+		border-bottom:none;
+	}
+	.bjl_order-content .container-fluidC .container .smtitle{
+		border-bottom:none;
+	}
+	.bjl_order-content .container-fluidD .container .smtitle{
+		border-bottom:none;
+	}
+	/*手机号码*/
+	.bjl_order-content .container .phone{
+		width:5rem;
+		height:.44rem;
+		margin-left: .3rem;
+		font-size: 18px;
+		color: #727272;
+		line-height: .44rem;
+		margin-top: .15rem;
+		font-family: "微软雅黑";
+	}
+	/*小圆点*/
+	.bjl_order-content .container .list span{
+		width:.2rem;
+		height:.2rem;
+		background: #FFB924;
+		position: absolute;
+		left: -0.48rem;
+		top: 50%;
+		margin-top: -0.1rem;
+		border-radius: 50%;
+	}
+	.bjl_order-content .container-fluidB .container .list span{
+		background: #5686FF;
+	}
+	.bjl_order-content .container-fluidC .container .list span{
+		background: #CB98FA;
+	}
+	.bjl_order-content .container-fluidD .container .list span{
+		background: #DD5044;
+	}
+	.bjl_order-content .container-fluidB{
+		width:100% ;
+		height:1.1rem;
+		border-bottom: 1px solid #E9E9E9;
+	}
+	.bjl_order-content .container-fluidC{
+		width:100% ;
+		height:1.1rem;
+		border-bottom: 1px solid #E9E9E9;
+	}
+	.bjl_order-content .container-fluidD{
+		width:100% ;
+		height:1.1rem;
+	}
+	#daodatime{
+		width: 4rem;
+		height: .4rem;
+		position: absolute;
+		top: 50%;
+		margin-top: -0.2rem;
+		left: 2.8rem;
+	}
+	#oldtime{
+		width: 1.3rem;
+		height: .4rem;
+		font-size: 14px;
+		color: #7B7B7B;
+		font-weight: 400;
+		font-family: "微软雅黑";
+	}
+	#newtime{
+		width: 1.3rem;
+		height: .4rem;
+		font-size: 14px;
+		color: #7B7B7B;
+		font-weight: 400;
+		font-family: "微软雅黑";
+	}
+	#ordertelphone{
+		width: 4rem;
+		height: .4rem;
+		position: absolute;
+		top: 50%;
+		margin-top: -0.2rem;
+		left: 2.3rem;
+		font-size: 13px;
+		color: #7B7B7B;
+		line-height: .4rem;
+	}
+	#ordertime{
+		width: 4rem;
+		height: .4rem;
+		position: absolute;
+		top: 50%;
+		margin-top: -0.2rem;
+		left: 2.3rem;
+		font-size: 13px;
+		color: #7B7B7B;
+		line-height: .4rem;
+	}
+	input::-webkit-input-placeholder{
+	 color: #CEC8C8; 
+	} 
+	input:-moz-placeholder{
+	 color: #CEC8C8; 
+	} 
+	input::-moz-placeholder{
+	 color: #CEC8C8; 
+	} 
+	input:-ms-input-placeholder{
+	 color: #CEC8C8; 
+	} 
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+	    margin: 0; 
+	}
+/*-----------------------------------------------------*/
+/*订单支付底部*/
+	.bjl_order-footer{
+		width: 100%;
+		height: .98rem;
+		position: fixed;
+		bottom:0;
+	}
+	.bjl_order-footer .left{
+		width: 2.85rem;
+		height: 100%;
+		background: #4B4B4B;
+		color:#fff ;
+		text-align: center;
+		line-height: .98rem;
+		font-size: 16px;
+		float: left;
+	}
+	.bjl_order-footer .right{
+		width: 4.65rem;
+		height: 100%;
+		background: #FFB21E;
+		color:#fff ;
+		text-align: center;
+		line-height: .98rem;
+		font-size: 16px;
+		float: right;
+	}
+	.bjl_order-footer .right a{
+		color:#fff ;
+	}
+	.bjl_order-footer .left a{
+		color:#fff ;
+	}
+/*-----------------------------------------------------*/
+/*-------------- 选择支付page页面CSS ------------------*/
+/*-----------------------------------------------------*/
+/*选择支付方式*/
+	.bjl_payment_select{
+		width: 100%;
+		height: auto;
+		background: #FAFAFA;
+		overflow: hidden;
+		margin-top: 1rem;
+	}
+	.bjl_payment_select ul{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+	}
+	.bjl_payment_select ul li{
+		width: 100%;
+		height: 1.2rem;
+		background: #fff;
+		/*background: red;*/
+		border-radius: 8px;
+		margin-top: .3rem;
+		position: relative;
+	}
+	.bjl_payment_select ul li a{
+		width: 100%;
+		height:100%;
+		display: block;
+	}
+	.bjl_payment_select .left{
+		width:1.06rem;
+		height: 1.2rem;
+		float: left;
+	}
+	.bjl_payment_select .left img{
+		width:1.06rem;
+		margin: 0.07rem 0;
+	}
+	.bjl_payment_select .right{
+		width:5rem;
+		height: 100%;
+		float: left;
+	}
+	.bjl_payment_select .right h3{
+		width:100%;
+		height: .34rem;
+		font-size: 16px;
+		color:#565656 ;
+		line-height: .34rem;
+		margin-top: .25rem;
+	}
+	.bjl_payment_select .right p{
+		width:100%;
+		height: .34rem;
+		font-size: 10px;
+		color:#BFBEBE ;
+		line-height: .34rem;
+		margin-top: .05rem;
+	}
+	.bjl_payment_select li a .paymentnum{
+		width:.9rem;
+		height: .4rem;
+		font-size: 10px;
+		color:#565656 ;
+		line-height: .4rem;
+		text-align: center;
+		position: absolute;
+		background: #F2F2F2;
+		border-radius: .16rem;
+		top: 50%;
+		margin-top: -0.2rem;
+		left: 5.5rem;
+	}
+	.bjl_payment_select li a .paymentnum img{
+		width:100%;
+	}
+/*-----------------------------------------------------*/
+/*其他支付方式*/
+	.bjl_payment_other{
+		width: 7.02rem;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: .6rem;
+	}
+	.bjl_payment_other .paytitle{
+		width: 100%;
+		height: .9rem;
+	}
+	.bjl_payment_other .paytitle .left{
+		width: 2rem;
+		height: .52rem;
+		float: left;
+		background: url(../image/bjl_35_02.png) no-repeat center left ;
+		padding-left: .6rem;
+	}
+	.bjl_payment_other .paytitle .left dt{
+		color:#878787 ;
+		font-size: 14px;
+		line-height: .3rem;
+	} 
+	.bjl_payment_other .paytitle .left dd{
+		width: 1rem;
+		color:#878787 ;
+		font-size: 10px;
+		line-height: .3rem;
+		margin-top: .05rem;
+	} 
+	.bjl_payment_other .paytitle .left dd span{
+		color:#878787 ;
+		font-size: 10px;
+		line-height: .3rem;
+		font-weight: 600;
+	} 
+	.bjl_payment_other .option{
+		width: 7.02rem;
+		height: 1.45rem;
+		margin: 0 auto;
+		position: relative;
+	} 
+	.bjl_payment_other .option .swiper-slide{
+		width: 3.32rem;
+		height: 1.45rem;
+	}
+	.bjl_payment_other .option .swiper-slide img{
+		width: 100%;
+	}
+	.bjl_payment_other .helpword{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 1.5rem;
+		overflow: hidden;
+	}
+	.bjl_payment_other .helpword div{
+		width: 100%;
+		height: .34rem;
+		text-align: center;
+		line-height: .34rem;
+		color: #BFBEBE;
+		font-size: 10px;
+	}
+	.bjl_payment_other .helpword p{
+		width: 100%;
+		text-align: center;
+		line-height: .34rem;
+		color: #BFBEBE;
+		font-size: 10px;
+	}
+/*-----------------------------------------------------*/
+/*--------------- 添加银行卡page页面CSS ---------------*/
+/*-----------------------------------------------------*/
+/*添加银行卡*/
+	.bjl_addcard_add{
+		width: 100%;
+		height: 1.12rem;
+		margin-top: 1rem;
+		background: #F4F4F4;
+		overflow: hidden;
+		padding-top: 1px;
+		transition:all .5s;
+	}
+	.bjl_addcard_add .addbtn{
+		width: 5.8rem;
+		height: 3.85rem;
+		background: #CDCDCD;
+		text-align: center;
+		line-height: .75rem;
+		border-radius:.18rem;
+		color: #fff;
+		font-size: 24px;
+		margin: 0 auto;
+		margin-top: .4rem;
+	}
+/*-----------------------------------------------------*/
+/*填写信息*/
+	.bjl_addcard_info{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.bjl_addcard_info .title{
+		width: 100%;
+		height: .8rem;
+		margin-top: .4rem;
+	}
+	.bjl_addcard_info .title div{
+		width: 100%;
+		height: .34rem;
+		color: #424242;
+		line-height: .34rem;
+		font-size: 14px;
+	}
+	.bjl_addcard_info .title p{
+		width: 100%;
+		height: .26rem;
+		color: #A3A3A3;
+		line-height: .34rem;
+		font-size: 10px;
+		font-family: pictos;
+		margin-top: .05rem;
+	}
+	.bjl_addcard_info .inputs{
+		width: 6.62rem;
+		height: .88rem;
+		margin: 0 auto;
+		border-bottom:1px solid #eee;
+		padding-left: .5rem;
+		position: relative;
+	}
+	.bjl_addcard_info .inputs span{
+		width: .37rem;
+		height: .37rem;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -0.18rem;
+		overflow: hidden;
+	}
+	.bjl_addcard_info .inputs span img{
+		width: 100%;
+	}
+	.bjl_addcard_info .inputs input{
+		width: 100%;
+		height: 100%;
+		font-size: 12px;
+		color: #424242;
+		line-height: .88rem;
+	}
+	.bjl_addcard_info .inputs p{
+		width: 100%;
+		height: 100%;
+		font-size: 12px;
+		color: #424242;
+		line-height: .88rem;
+	}
+/*-----------------------------------------------------*/
+/*尾部提交信息*/
+	.bjl_addcard_submit{
+		width: 7.02rem;
+		height: .88rem;
+		margin: 0 auto;
+		/*background: #FFB21E;*/
+		background: #A3A3A3;
+		border-radius:.44rem ;
+		color: #fff;
+		text-align: center;
+		line-height: .88rem;
+		font-size: 16px;
+		margin-top: .8rem;
+	}
+	.bjl_addcard_submit a{
+		color: #fff;
+		line-height: .88rem;
+		font-size: 16px;
+	}
+/*-----------------------------------------------------*/
+/*---------------- 选择支付page页面CSS ----------------*/
+/*-----------------------------------------------------*/
+/*头部*/
+	.bjl-order-head .select-more{
+		display: block;
+		width: .52rem;
+		height: .52rem;
+		position: absolute;
+		right: .25rem;
+		top: 50%;
+		margin-top: -0.26rem;		
+	}
+	.bjl-order-head .select-more img{
+		width: 100%;
+	}
+/*-----------------------------------------------------*/
+/*选择银行卡*/
+	.bjl_select_card{
+		width: 100%;
+		height: 2.86rem;
+		background: url(../image/bjl_01.jpg) repeat;
+		position: relative;
+	}
+	.bjl_select_card .banner{
+		width: 100%;
+		height: 4.18rem;
+		padding-top: .3rem;
+	    padding-bottom: .3rem;
+		position: absolute;
+		top: .9rem;
+	}
+	.bjl_select_card .swiper-wrapper .swiper-slide{
+	    background-position: center;
+	    background-size: cover;
+	    width: 5.82rem;
+		height: 3.58rem;
+		overflow: hidden;
+	}
+/*-----------------------------------------------------*/
+/*银行卡信息*/
+	.bjl_select_info{
+		width: 7.02rem;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+		border-radius: .1rem;
+		box-shadow: 0 0 5px #E9E9E9;
+		margin-top: 2.35rem;
+	}
+	.bjl_select_info ul li{
+		width: 6.2rem;
+		height: .88rem;
+		border-bottom: 1px solid #EAEAEA;
+		padding-left: .54rem;
+		margin: 0 auto;
+		position: relative;
+	}
+	.bjl_select_info ul li .color{
+		width: .3rem;
+		height: .3rem;
+		background:#FFA72A ;
+		position: absolute;
+		left:0rem ;
+		top: 50%;
+		margin-top: -0.15rem;
+		background-clip: content-box;
+		border-radius:50%;
+		padding: .04rem;
+		border: 1px solid #EAEAEA;
+	}
+	.bjl_select_info ul li .duanxin{
+		width: 1.7rem;
+		height: .6rem;
+		background:#2BD2FC ;
+		position: absolute;
+		right:0;
+		top: 50%;
+		margin-top: -0.3rem;
+		border-radius:.3rem;
+		text-align: center;
+		line-height: .6rem;
+		color: #fff;
+		font-size: 12px;
+	}
+	.bjl_select_info ul li .bangding{
+		background:#4B4B4B ;
+		line-height: .6rem;
+	}
+	.bjl_select_info ul li div{
+		width: 100%;
+		height: 100%;
+		line-height: .88rem;
+		font-size: 14px;
+		color: #A0A0A0;
+	}
+	.bjl_select_info ul li div span{
+		font-size: 14px;
+		color: #A0A0A0;
+	}
+/*-----------------------------------------------------*/
+/*尾部银行卡支付*/
+	.bjl_select_paybtn{
+		width: 100%;
+		height: .94rem;
+		background: #FFB21E;
+		overflow: hidden;
+		position: relative;
+	}
+	.bjl_select_paybtn div{
+		width: 100%;
+		height: .94rem;
+		text-align: center;
+		line-height: .94rem;
+		color: #fff;
+		font-size: 16px;
+	}
+	.bjl_select_paybtn ul{
+		width: 100%;
+		height: 0rem;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		background:#FF9334;
+		transtion:height .5s;
+		-webkit-transition:height .5s;
+	}
+	.bjl_select_paybtn ul li{
+		width: 33%;
+		height: .94rem;
+		float: left;
+		text-align: center;
+		line-height: .94rem;
+	}
+	.bjl_select_paybtn ul li a{
+		color: #fff;
+		font-size: 14px;
+	}
+/*-----------------------------------------------------*/
+/*---------------- 指纹支付page页面CSS ----------------*/
+/*-----------------------------------------------------*/
+/*银行卡信息*/
+	.bjl_finger_info{
+		width: 100%;
+		height: auto;
+		margin-top: 3.5rem;
+	}
+	.bjl_finger_info .images{
+		width: 1.5rem;
+		height: 1.37rem;
+		margin: 0 auto;
+	}
+	.bjl_finger_info .images img{
+		width: 100%;
+	}
+	.bjl_finger_info .words{
+		width: 100%;
+		height: .5rem;
+		text-align: center;
+		line-height: .5rem;
+		font-size:16px ;
+		color:#747474 ;
+		margin-top: .3rem;
+	}
+	.bjl_finger_info .english{
+		width: 100%;
+		height: .3rem;
+		text-align: center;
+		line-height: .3rem;
+		font-size:10px ;
+		color:#747474 ;
+	}
+	.bjl_finger_info .rmbnum{
+		width: 100%;
+		height: .7rem;
+		text-align: center;
+		line-height: .7rem;
+		font-size:24px ;
+		color:#E10A0A ;
+		font-family: "微软雅黑";
+		margin-top: .3rem;
+	}
+	.bjl_finger_info .rmb{
+		width: 100%;
+		height: .3rem;
+		text-align: center;
+		line-height: .3rem;
+		font-size:10px ;
+		color:#E10A0A ;
+		font-family: "微软雅黑";
+	}
+/*-----------------------------------------------------*/
+/*---------------- 密码支付page页面CSS ----------------*/
+/*-----------------------------------------------------*/
+/*银行卡*/
+	.bjl_select_card .password-card{
+		width: 6.6rem;
+		height: 2.84rem;
+		position: absolute;
+		top: 1rem;
+		left: 50%;
+		margin-left: -3.3rem;
+	}
+	.bjl_select_card .password-card img{
+		width: 100%;
+	}
+/*-----------------------------------------------------*/
+/*密码验证内容*/
+	.bjl_password_info{
+		width: 100%;
+		height: auto;
+		padding-top:1px;
+		overflow: hidden; 
+	}
+	/*总价格*/
+	.bjl_password_info .title{
+		width: 4.6rem;
+		height: .6rem;
+		margin: 0 auto;
+		margin-top: 1.7rem;
+	}
+	.bjl_password_info .title .left{
+		width: 1.6rem;
+		height: 100%;
+		float: left;
+	}
+	.bjl_password_info .title .left dd{ 
+		width: 2rem;
+		height: .3rem;
+		line-height: .3rem;
+		font-size: 10px;
+		color: #838282;
+	}
+	.bjl_password_info .title .right{
+		width: 2.8rem;
+		height: 100%;
+		float: right;
+		text-align: right;
+	}
+	.bjl_password_info .title .right .num{
+		height: 100%;
+		font-size: 26px;
+		color: #E10A0A;
+		line-height: .6rem;
+		font-family: pictos;
+	}
+	.bjl_password_info .title .right .rmb{
+		height: 100%;
+		font-size: 14px;
+		color: #E10A0A;
+		line-height: .3rem;
+		font-family: pictos;
+	}
+	/*密码框*/
+	.bjl_password_info .password-box{
+		width: 5.4rem;
+		height: 1rem;
+		margin: 0 auto;
+		margin-top: .9rem;
+		overflow: hidden;
+	}
+	.bjl_password_info .password-box .inputs-box{
+		width: .65rem;
+		height: 100%;
+		border-bottom: 4px solid #E5E5E5;
+		/*border-bottom: 6px solid #25B9FF;*/
+		float: left;
+		margin-right: .3rem;
+	}
+	.bjl_password_info .password-box .inputs-box:nth-child(6){
+		margin-right: 0;
+	}
+	.bjl_password_info .password-box .inputs-box input{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 1rem;
+		color: #484848;
+		font-size: 22px;
+		font-family: pictos;
+		background: #F7F7F7;
+	}
+	/*确认周边坏境*/
+	.bjl_password_info .prompt{
+		width: 5.4rem;
+		height: .65rem;
+		margin: 0 auto;
+		margin-top: .6rem;
+		overflow: hidden;
+	}
+	.bjl_password_info .prompt .left{
+		width:4.8rem;
+		height:100%;
+		float: left;
+	}
+	.bjl_password_info .prompt .left dd{
+		width: 100%;
+		height: .34rem;
+		line-height: .34rem;
+		color: #A9A9A9;
+		font-size: 10px;
+	}
+	.bjl_password_info .prompt .right{
+		width:.55rem;
+		height:.55rem;
+		float: right;
+		margin: 0.05rem 0;
+	}
+	.bjl_password_info .prompt .right img{
+		width:100%;
+	}
+/*-----------------------------------------------------*/
+/*---------------- 人脸识别page页面CSS ----------------*/
+/*-----------------------------------------------------*/
+/*人脸识别内容*/
+	.bjl_facepay_info{
+		width: 100%;
+		height: 7.9rem;
+	}
+	.bjl_facepay_info img{
+		width: 100%;
+	}
+/*-----------------------------------------------------*/
+/*人脸识别提示*/
+	.bjl_facepay_prompt{
+		width: 100%;
+		height: auto;
+		margin-top: .5rem;
+	}
+	.bjl_facepay_prompt .words{
+		width: 100%;
+		height: .5rem;
+		text-align: center;
+		line-height: .5rem;
+		font-size:14px ;
+		color:#747474 ;
+		margin-top: .3rem;
+	}
+	.bjl_facepay_prompt .english{
+		width: 100%;
+		height: .3rem;
+		text-align: center;
+		line-height: .3rem;
+		font-size:10px ;
+		color:#747474 ;
+	}
+	.bjl_facepay_prompt .rmbnum{
+		width: 100%;
+		height: .7rem;
+		text-align: center;
+		line-height: .7rem;
+		font-size:24px ;
+		color:#E10A0A ;
+		font-family: "微软雅黑";
+		margin-top: .3rem;
+	}
+	.bjl_facepay_prompt .rmb{
+		width: 100%;
+		height: .3rem;
+		text-align: center;
+		line-height: .3rem;
+		font-size:10px ;
+		color:#E10A0A ;
+		font-family: "微软雅黑";
+	}
+/*-----------------------------------------------------*/
+/*支付成功提示*/
+	.bjl_facepay_sucess{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		z-index: 9999;
+		/*background: red;*/
+		overflow: hidden;
+		display: none;
+	}
+	.bjl_facepay_sucess .images{
+		width: 100%;
+		height: 8rem;
+		position: absolute;
+		top: 1rem;
+		z-index: 10000;
+	}
+	.bjl_facepay_sucess .images img{
+		width: 100%;
+	}
+	.bjl_facepay_sucess .clickbtn{
+		width: 3rem;
+		height: .7rem;
+		position: absolute;
+		top: 8.5rem;
+		z-index: 10001;
+		background: #FFA018;
+		line-height: .7rem;
+		text-align: center;
+		left: 50%;
+		margin-left: -1.5rem;
+		border-radius: .35rem;
+	}
+	.bjl_facepay_sucess .clickbtn a{
+		color: #fff;
+		font-size: 12px;
+		font-weight: 300;
+	}
+	.bjl_facepay_sucess .sucessbtn{
+		top: 9.4rem;
+		font-weight: 300;
+	}
+	.bjl_facepay_sucess .sucessbtn a{
+		color: #fff;
+		font-size: 14px;
+	}
+	.bjl_facepay_sucess .mask{
+		width: 100%;
+		height: 100%;
+		background: rgba(79,79,79,0.9);
+		position: absolute;
+		top: 0;
+		z-index: 9999;
+	}
+/*-----------------------------------------------------

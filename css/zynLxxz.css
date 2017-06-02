@@ -1,0 +1,279 @@
+@import url(base.css);
+*{
+    font-family: 'PingFang';
+}
+body,html{
+    width:100%;
+    height:100%;
+    background: #F6F6F6;
+}
+.zyn_gl_header{
+    width:100%;
+    height:0.96rem;
+    position: fixed;
+    z-index: 100;
+}
+.zyn_gl_header>.zhe{
+    height:100%;
+    width:100%;
+    position: relative;
+    padding-top:1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.zyn_gl_header>.zhe>.line{
+    width:6.28rem;
+    height:1px;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.zyn_gl_header>.zhe>.shortLine{
+    width:0.38rem;
+    height:3px;
+    background: rgba(255,255,255,1);
+    position: absolute;
+    top:0.16rem;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.zyn_gl_header>.zhe>.back{
+    width:0.45rem;
+    height:0.45rem;
+    position: absolute;
+    left:0.4rem;
+    top:0.29rem;
+}
+.zyn_gl_header>.zhe>.back>a{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.zyn_gl_header>.zhe>.back>a>img{
+    width:100%;
+    height:100%;
+}
+.zyn_gl_header>.zhe>.textBox{
+    width:100%;
+    height:auto;
+    margin-top: 0.27rem;
+    text-align: center;
+}
+.zyn_gl_header>.zhe>.textBox>h3{
+    color: #fff;
+    font-size: 0.24rem;
+    text-transform: uppercase;
+}
+/*旅行须知主体*/
+.zyn_xz_main{
+    width:100%;
+    height:auto;
+    padding-top: 1.25rem;
+}
+.zyn_xz_main>.xzItemBox{
+    width:100%;
+    height: auto;
+}
+.zyn_xz_main>.xzItemBox>li{
+    width:100%;
+    height:1.15rem;
+    background: #fff;
+    margin-bottom: 4px;
+}
+.zyn_xz_main>.xzItemBox>li>.items{
+    width:100%;
+    height:100%;
+    padding:0 0.44rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.zyn_xz_main>.xzItemBox>li>.items>a{
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.icon{
+    width:0.43rem;
+    height:0.43rem;
+    float: left;
+    margin-top: 0.36rem;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.textBox{
+    width:70%;
+    margin-top: 0.2rem;
+    padding-left: 0.2rem;
+    height:auto;
+    line-height: 0.3rem;
+    float: left;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.textBox>.title{
+    width:100%;
+    height:0.55rem;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.textBox>.title>h2{
+    font-size:15px;
+    color: #2F2F2F;
+    float: left;
+    line-height: 0.3rem;
+    padding-right: 0.15rem;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.textBox>.title>img{
+    float: left;
+    margin-top: 3px;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.textBox>p{
+    font-size: 0.18rem;
+    color: #7E7D7D;
+}
+.zyn_xz_main>.xzItemBox>li>.items>.row{
+    width:0.25rem;
+    height:0.3rem;
+    float: right;
+    margin-top: 0.44rem;
+}
+
+/*最佳路线*/
+.zyn_xz_main>.lxItemBox>li{
+    width:100%;
+    height:2.07rem;
+    background: #fff;
+    margin-bottom: 8px;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems{
+    width:100%;
+    height:100%;
+    padding:0.15rem 0.15rem 0.15rem 0.25rem;
+    position: relative;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>a{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.photo{
+    width:1.62rem;
+    height:1.62rem;
+    float: left;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.photo>img{
+    width:100%;
+    height:100%;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox{
+    float: left;
+    height:auto;
+    width:70%;
+    padding:0 0.1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox>.top{
+    height:0.5rem;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox>.top>h3{
+    max-width:92%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    padding-right: 0.1rem;
+    height:100%;
+    float: left;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox>.top>img{
+    margin-top: 0.18rem;
+    float: left;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox>.top>h3,.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox>.top>h3>span{
+    height:100%;
+    font-size: 15px;
+    color: #2F2F2F;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>.textBox>p{
+    font-size: 0.18rem;
+    color: #7E7D7D;
+    line-height: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+}
+.zyn_xz_main>.lxItemBox>li>.lxItems>img{
+    float: right;
+    width:0.25rem;
+    height:0.35rem;
+    margin-top: 0.7rem;
+}
+
+/*最佳路线详情*/
+/*目的地概况*/
+.zyn_address_main{
+    background: #fff;
+    width:100%;
+    height:auto;
+    padding:1.39rem 0.5rem 0.45rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.zyn_address_main>.itemBox{
+    width:100%;
+    height: auto;
+    margin-bottom: 0.4rem;
+}
+.zyn_address_main>.itemBox>.title{
+    width:100%;
+    height:0.26rem;
+}
+.zyn_address_main>.itemBox>.title>span{
+    display: block;
+    float: left;
+    width:3px;
+    height:100%;
+    background: #325D6D;
+}
+.zyn_address_main>.itemBox>.title>h3{
+    height: 100%;
+    padding-left: 0.2rem;
+    font-size: 0.24rem;
+    color: #325D6D;
+}
+.zyn_address_main>.itemBox>article{
+    padding-top: 0.34rem;
+    width:100%;
+    height: auto;
+}
+.zyn_address_main>.itemBox>article>p{
+    font-size: 0.22rem;
+    color: #555555;
+    line-height: 0.4rem;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

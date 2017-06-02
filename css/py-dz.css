@@ -1,0 +1,306 @@
+@import url(base.css);
+
+body{
+	width: 100%;
+	height: 100%;
+	background: #F7F7F7;
+}
+/*头部开始*/
+.tou{
+	width: 100%;
+	height: .85rem;
+	background: url(../image/py-re.png) round;
+
+}
+.back{
+	width: .44rem;
+	height: .72rem;
+	float: left;
+	/*background: red;*/
+
+}
+.back img{
+	width: 100%;
+	margin-top: .2rem;
+	margin-left: .1rem;
+}
+.tj{
+	width: 2rem;
+	height: 100%;
+	/*background: red;*/
+/*	float: left;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: .85rem;
+
+}
+.tj h2{
+	color: #ffffff;
+	font-weight: 200;
+	line-height: .85rem;
+	font-size: 18px;
+}
+/*头部结束*/
+/*定制流程开始*/
+
+.liu{
+	width: 6.5rem;
+	height: 1.62rem;
+	/*background: red;*/
+	margin: 1rem auto;
+	/*display: flex;*/
+}
+.one{
+	/*width: 1.2rem;*/
+	width: 27%;
+	height: 100%;
+	/*background: yellow;*/
+	margin-left: .2rem;
+	float: left;
+	/*display: flex;*/
+	/*justify-content:space-between;*/
+	
+
+}
+.tuo{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	/*display: flex;*/
+	/*flex-direction:column;*/
+
+}
+.xt{
+	width: .8rem;
+	/*height: .49rem;*/
+	margin: -.86rem auto;
+
+}
+.tuo img{
+	width: 100%;
+
+}
+.zz{
+	width: 2rem;
+	height: .61rem;
+	/*background: blue;*/
+	margin-top: -.19rem;
+	margin-left: -.1rem;
+	text-align: center;
+}
+.zz h2{
+	font-size: 11px;
+	/*line-height: .61rem;*/
+}
+
+.zz p{
+	font-size: 9px;
+	margin-top: .1rem;
+	/*line-height: .61rem;*/
+}
+.xy{
+	width: .34rem;
+	height: .3rem;
+	/*background: pink;*/
+	float: left;
+	margin-top: .4rem;
+	margin-left: -.1rem;
+}
+.xy img{
+	width: 100%;
+}
+.cg{
+	width: .18rem;
+	height: .18rem;
+	background: #E9C580;
+	border-radius: 50%;
+	margin-left: .5rem;
+	margin-top: -.92rem;
+	position: relative;
+	z-index: 99999;
+}
+.cg img{
+	width: 100%;
+	position: absolute;
+	margin-top: -.01rem;
+}
+
+/*定制流程结束*/
+
+/*选择栏开始*/
+
+.cha{
+	width: 6.56rem;
+	height: .6rem;
+	/*background: yellow;*/
+	margin: .97rem auto;
+}
+.cx{
+	width: auto;
+	height: .28rem;
+	/*background: pink;*/
+	position: absolute;
+	margin-top: .16rem;
+	float: left;
+	/*text-align: center;*/
+}
+.cx p{
+	font-size: 14px;
+	line-height: .28rem;
+
+}
+.in{
+	width: 5.07rem;
+	height: .6rem;
+	/*background: red;*/
+	float: right;
+}
+#one{
+	width: 1.94rem;
+	height: 100%;
+	/*background: pink;*/
+	border:.03rem solid #C7CBC8;
+	border-radius: 5px;
+	line-height: .6rem;
+	text-indent: .2rem;
+}
+.xx{
+	width: .34rem;
+	height: .3rem;
+	/*background: pink;*/
+	float: right;
+	position: relative;
+	z-index: 999;
+	margin-right: 3.2rem;
+	margin-top: -.4rem;
+	background: url(../image/x.png)  center center /cover;
+	/*background-position: .1rem .1rem;*/
+}
+#two{
+	width: 2.66rem;
+	height: 100%;
+	border:.03rem solid #C7CBC8;
+	border-radius: 5px;
+	line-height: .6rem;
+	text-indent: .2rem;
+	margin-left: .3rem;
+}
+.xxx{
+	width: .34rem;
+	height: .3rem;
+	/*background: pink;*/
+	float: right;
+	position: relative;
+	z-index: 999;
+	margin-right:.18rem;
+	margin-top: -.4rem;
+	background: url(../image/x.png)  center center /cover;
+	/*background-position: .1rem .1rem;*/
+}
+.chaa{
+	width: 6.56rem;
+	height: .6rem;
+	/*background: yellow;*/
+	margin: 0 auto;
+	margin-top: -.66rem;
+}
+.chaaa{
+	width: 6.56rem;
+	height: .6rem;
+	/*background: yellow;*/
+	margin: .28rem auto;
+	/*margin-top: -.28rem;*/
+}
+#three{
+	width: 5.07rem;
+	height: .6rem;
+	border:.03rem solid #C7CBC8;
+	border-radius: 5px;
+	line-height: .6rem;
+	text-indent: .2rem;
+}
+.xxxx{
+	width: .34rem;
+	height: .3rem;
+	/*background: pink;*/
+	float: right;
+	position: relative;
+	z-index: 999;
+	margin-right:.19rem;
+	margin-top: -.4rem;
+	background: url(../image/x.png)  center center /cover;
+}
+/*选择栏结束*/
+
+/*下方选择开始*/
+.check{
+	width: 4rem;
+	height: .7rem;
+	/*background: red;*/
+	margin: .34rem auto;
+}
+.yi{
+	width: 100%;
+	height: .24rem;
+	/*background: yellow;*/
+	margin-top: .2rem;
+}
+.yi p{
+	font-size: 10px;
+	line-height: .24rem;
+}
+.ck{
+	width: .3rem;
+	height: .3rem;
+	float: left;
+}
+.ck img{
+	width: 100%;
+}
+.zi{
+	width: 3.6rem;
+	height: 100%;
+	/*background: blue;*/
+	float: left;
+	margin-top: .06rem;
+}
+.zi p{
+	font-size: 10px;
+	text-indent: .1rem;
+	line-height: .2rem;
+}
+.ckk{
+	width: .3rem;
+	height: .3rem;
+	border:1px solid #C7CBC8;
+	border-radius: 3px;
+	float: left;
+}
+/*下方选择结束*/
+
+/*提交开始*/
+.ti{
+	width: 6.56rem;
+	height: 1.01rem;
+	margin: .6rem auto;
+	background: #66CBE8;
+	text-align: center;
+	border-radius: 5px;
+}
+.ti p{
+	color: #F7F7F7;
+	font-size: 14px;
+	line-height: 1.01rem;
+}
+.zdd{
+	width: 2rem;
+	height: .19rem;
+	/*background: red;*/
+	margin: 0 auto;
+	margin-top: -.5rem;
+	text-align: center;
+}
+.zdd a{
+	color: #82A8FF;
+	font-size: 8px;
+}

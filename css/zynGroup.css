@@ -1,0 +1,315 @@
+@import url(base.css);
+body,
+html {
+  background: #F7F7F7;
+}
+* {
+  font-family: pingfang;
+}
+.zyn_gl_header {
+  width: 100%;
+  height: 0.96rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.zyn_gl_header > .zhe {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+  padding-top: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zyn_gl_header > .zhe > .line {
+  width: 6.28rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.zyn_gl_header > .zhe > .back {
+  width:0.45rem;
+  height:0.45rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.29rem;
+}
+.zyn_gl_header > .zhe > .back > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zyn_gl_header > .zhe > .back > a > img {
+  width: 100%;
+  height: 100%;
+}
+.zyn_gl_header > .zhe > .textBox {
+  width: 100%;
+  height: auto;
+  margin-top: 0.29rem;
+  text-align: center;
+}
+.zyn_gl_header > .zhe > .textBox > h3 {
+  color: #fff;
+  font-size: 0.4rem;
+  line-height: 0.4rem;
+  text-transform: uppercase;
+}
+.zyn_gl_header > .zhe > .line > .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: -2px;
+  z-index: 1;
+}
+.zyn_bannerBox {
+  width: 100%;
+  height: 4.84rem;
+  /*margin-top: 1.4rem;*/
+}
+.zyn_bannerBox .bannerBox {
+  width: 100%;
+  height: 100%;
+}
+.zyn_bannerBox .bannerBox img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 3px!important;
+}
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #fff!important;
+  opacity: 1!important;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #FCE118!important;
+}
+.zyn_zt_main {
+  width: 100%;
+  height: auto;
+}
+.zyn_zt_main .mainCon {
+  width: 100%;
+  height: auto;
+}
+.zyn_zt_main .mainCon li {
+  width: 100%;
+  height: auto;
+}
+.zyn_zt_main .mainCon li .title {
+  width: 100%;
+  height: 0.7rem;
+  padding: 0 0.24rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0.45rem;
+}
+.zyn_zt_main .mainCon li .title .top {
+  font-size: 0.36rem;
+  font-family: 'GillSans';
+  color: #333333;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-transform: uppercase;
+}
+.zyn_zt_main .mainCon li .title .btm {
+  width: 100%;
+  height: 0.4rem;
+}
+.zyn_zt_main .mainCon li .title .btm h3 {
+  height: 100%;
+  font-size: 0.36rem;
+  font-weight: 400;
+  line-height: 0.4rem;
+  color: #333333;
+  float: left;
+  padding-right: 0.1rem;
+}
+.zyn_zt_main .mainCon li .title .btm h3 span {
+  font-size: 0.36rem;
+  font-weight: 900;
+}
+.zyn_zt_main .mainCon li .title .btm .dot {
+  display: block;
+  width: 0.34rem;
+  height: 0.08rem;
+  margin-top: 0.16rem;
+  float: left;
+}
+.zyn_zt_main .mainCon li .title .btm .dot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zyn_zt_main .mainCon li .item {
+  width: 100%;
+  height: auto;
+  padding: 0.15rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.zyn_zt_main .mainCon li .item li {
+  float: left;
+  width: 25%;
+  height: 0.78rem;
+}
+.zyn_zt_main .mainCon li .item li .items {
+  width: 1.64rem;
+  height: 0.7rem;
+  margin: 0.04rem auto;
+  background: #fff;
+  border-radius: 0.15rem;
+  -webkit-box-shadow: 0 1px 2px 0 #ccc;
+  -moz-box-shadow: none;
+  box-shadow: 0 1px 2px 0 #ccc;
+}
+.zyn_zt_main .mainCon li .item li .items a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.72rem;
+  font-size: 0.28rem;
+  color: #333333;
+  position: relative;
+}
+.zyn_zt_main .mainCon li .item li .items a .icon {
+  position: absolute;
+  top: 0.2rem;
+  left: 0.18rem;
+  width: 0.27rem;
+  height: 0.27rem;
+}
+.zyn_zt_main .mainCon li .item li .items a .word {
+  font-size: 0.3rem;
+}
+.zyn_zt_main .mainCon li .item2 li {
+  width: 100%;
+  height: 3.16rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 {
+  width: 7.02rem;
+  height: 2.9rem;
+  margin: 0.23rem auto;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 3px 0 #ccc;
+  -moz-box-shadow: 0 1px 3px 0 #ccc;
+  box-shadow: 0 1px 3px 0 #ccc;
+  border-radius: 0.2rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .photo {
+  width: 3.2rem;
+  height: 100%;
+  float: left;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .textBox {
+  width: 54%;
+  float: left;
+  padding: 0.25rem 0.33rem 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .en {
+  font-size: 0.3rem;
+  color: #333;
+  font-family: 'GillSans';
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-transform: uppercase;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .ch {
+  font-size: 0.3rem;
+  color: #333;
+  height: 0.35rem;
+  line-height: 0.35rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .dayBox {
+  width: 100%;
+  height: auto;
+  margin-top: 0.24rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .dayBox .wordBox {
+  width: 100%;
+  height: 0.35rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .dayBox .wordBox .word {
+  float: left;
+  font-size: 0.18rem;
+  color: #333;
+  line-height: 0.35rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .dayBox .wordBox .data {
+  float: right;
+  font-size: 0.18rem;
+  color: #333;
+  line-height: 0.2rem;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .dayBox .zhu {
+  width: 100%;
+  height: 0.1rem;
+  border-radius: 0.2rem;
+  background: #E6E6E6;
+  position: relative;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .dayBox .zhu .nei {
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #37B4FE;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .join {
+  float: right;
+  width: 100%;
+  height: auto;
+  margin-top: 0.22rem;
+  position: relative;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .join span {
+  display: block;
+  height: 100%;
+  font-size: 0.24rem;
+  color: #333333;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .join .iBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.zyn_zt_main .mainCon li .item2 li .items2 a .join .iBox span {
+  position: absolute;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  top: 0;
+}

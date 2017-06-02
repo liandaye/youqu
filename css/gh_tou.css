@@ -1,0 +1,81 @@
+@import url(normalize.css);
+img{
+	border:0;
+}
+*{
+	font-family: "微软雅黑";
+}
+/*头部开始*/
+	body{
+	background: #EDEDED;
+	font-size: .24rem;
+	}
+
+	header{
+		height: 1.40rem;
+		background: url('../image/gh-header.png') no-repeat center center/cover;
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 999;
+	}
+	header>.gh-left{
+		height: 100%;
+		line-height: 1.4rem;
+	}
+	header>div{
+		float: left;
+	}
+	header>.gh-left img{
+		height: .43rem;
+		margin-left: .25rem;
+		margin-top: .5rem;
+	}
+	header>.gh-center{
+		position: absolute;
+		left: 0;
+		top:  .40rem;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	header>.gh-center>.gh-he{
+		width: .52rem;
+		height: .04rem;
+		background: #434338;
+		margin:0 auto 0.06rem;
+	}
+	header>.gh-center>.gh-he>.gh-ce{
+		width: .37rem;
+		height: 100%;
+		background: #fff;
+		margin: 0 auto;
+	}
+
+	header>.gh-center>h3{
+		color: #fff;
+		text-align: center;
+		margin: 0;
+		font-size: .24rem
+	}
+	header>.gh-center>h3:last-child{
+		font-size: .28rem;
+	}
+
+	header>.gh-center>h3:nth-child(2){
+		margin-bottom: .04rem;
+	}
+
+	header>.gh-center>h3:last-child{
+		font-weight: normal;
+	}
+	header>.gh-right{
+		float: right;
+	}
+	header>.gh-right>a>img{
+		height: .53rem;
+		margin-top: .5rem;
+		margin-right: .16rem;
+	}
+/*头部结束*/

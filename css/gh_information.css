@@ -1,0 +1,69 @@
+
+p{
+	margin: 0;
+}
+section{
+	margin-top: 1.4rem;
+}
+.gh-section{
+	padding: .21rem .41rem;
+	background: #fff;
+	box-sizing:border-box;
+	overflow: hidden;
+	font-size: .28rem;
+	margin-bottom: .22rem;
+	color: #626262;
+}
+.gh-left{
+	float: left;
+	display: block;
+	height: 100%;
+	margin-right: .45rem;
+}
+.gh-right{
+	float: left;
+}
+.gh-right>p:nth-child(1){
+	margin-bottom: .1rem;
+}
+
+.gh-tb{
+	margin-right: .3rem;
+	width: .3rem;
+	height: .3rem;
+	float: left;
+	background: url(../image/gh-tubiao14.png)no-repeat center center/cover;
+}
+.gh-con{
+	margin-bottom: .2rem;
+}
+.gh-con:nth-child(3){
+	margin-bottom: .3rem;
+}
+.gh-con.x{
+	margin-top: .45rem;
+	width: 5.15rem;
+}
+section>.gh-button{
+	/*margin-top: 1.20rem;*/
+	position: relative;
+}
+section>.gh-button>a{
+	color: #fff;
+	height: 100%;
+	display: block;
+	font-size: .28rem;
+	position: relative;
+}
+section>.gh-button>a>span{
+	position: absolute;
+	left: 50%;
+	margin-left: -.61rem;
+	top: 50%;
+	margin-top: -.30rem;
+}
+section>.gh-button>a>img{
+	width: 5.87rem;
+	display: block;
+	margin: 0 auto;
+}

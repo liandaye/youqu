@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选择支付方式</title>
+	<!-- 手机端视口meta标签 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- REM JS -->
+	<script src='../js/rem.js'></script>
+	<!-- 去除默认样式 -->
+	<link rel="stylesheet" href="../css/base.css">
+	<!-- 自定义CSS -->
+	<link rel="stylesheet" href="../css/bjl_jiudian.css">
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper.min.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<header class='bjl-order-head'>
+		<a class="back" href="bjl_page_addbankcard.html">
+			<img src="../image/bjl_02.png" alt="">
+		</a>
+		<dl class="title">
+			<dt>SELECT PAYMENT METHOD</dt>
+			<dt>选择支付方式</dt>
+			<span></span>
+		</dl>
+		<a class="select-more">
+			<img src="../image/bjl_71.png" alt="">
+		</a>
+	</header>
+	<!-- 选择银行卡 -->
+	<section class='bjl_select_card'> 
+		<!-- Swiper -->
+	    <div class="swiper-container banner">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide" style="background:url('../image/bjl_51.png') no-repeat;-webkit-background-size:100%"></div>
+	            <div class="swiper-slide" style="background:url('../image/bjl_51.png') no-repeat;-webkit-background-size:100%"></div>
+	            <div class="swiper-slide" style="background:url('../image/bjl_51.png') no-repeat;-webkit-background-size:100%"></div>
+	        </div>
+	    </div>
+	</section>
+	<!-- 银行卡信息 -->
+	<section class='bjl_select_info'>
+		<ul>
+			<li>
+				<span class='color'></span>
+				<div>开户银行:  渣打银行</div>
+			</li>
+			<li>
+				<span class='color'></span>
+				<div>支付额度限制:  50,000RMB</div>
+			</li>
+			<li>
+				<span class='color'></span>
+				<div>卡余额查询:  
+					<span class='yanzhengma'>
+						向99677发送
+					</span>
+				</div>
+				<span class='duanxin dxcxbtn'>短信查询</span>
+			</li>
+			<li>
+				<span class='color'></span>
+				<div>使用期限:  2019-06-14</div>
+			</li>
+			<li>
+				<span class='color'></span>
+				<div>使用方式:  
+					<span class='qiehuanopt'>
+						指纹支付
+					</span>
+				</div>
+				<span class='duanxin qiehuan'>切换</span>
+			</li>
+			<li>
+				<span class='color'></span>
+				<div>绑定状态:  
+					<span class='weibangding'>
+						已绑定
+					</span>
+				</div>
+				<span class='duanxin bangding'>解除绑定</span>
+			</li>
+		</ul>
+	</section>
+	<!-- 尾部银行卡支付 -->
+	<footer class='bjl_select_paybtn'>
+		<div>使用此银行卡支付</div>
+		<ul>
+			<li>
+				<a href="bjl_page_fingerpay.html">指纹验证</a>
+			</li>
+			<li>
+				<a href="bjl_page_passwordpay.html">密码验证</a>
+			</li>
+			<li>
+				<a href="bjl_page_facepay.html">人脸识别</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+    <!-- 自定义 JS -->
+    <script src='../js/bjl_selectpay.js'>
+		// 轮播图
+		var swiper = new Swiper('.swiper-container', {
+	        effect: 'coverflow',
+	        grabCursor: true,
+	        centeredSlides: true,
+	        slidesPerView: 'auto',
+	    });
+    </script>
+</body>
+</html>

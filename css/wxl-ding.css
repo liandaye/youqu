@@ -1,0 +1,115 @@
+.wxl-ding-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.wxl-f-top .wxl-f-left .wxl-company {
+  font-size: 0.26rem;
+}
+.wxl-f-top .wxl-f-left .wxl-f-text .wxl-f-english {
+  border-left: 0;
+  height: auto;
+  width: 1rem;
+  text-transform: uppercase;
+  font-size: 0.1rem;
+  padding-left: 0.1rem;
+  color: #9A9A9A;
+  margin-left: 0.1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+}
+.wxl-f-top .wxl-f-left {
+  position: relative!important;
+}
+.wxl-f-top .wxl-f-left .wxl-f-text .wxl-f-english {
+  margin-left: 0;
+  padding-left: 0;
+}
+.wxl-f-top .wxl-f-left .wxl-company {
+  position: absolute;
+  right: -12px;
+  bottom: 0;
+}
+.wxl-ding-li {
+  width: 100%;
+  position: relative;
+  margin-top: 0.15rem;
+}
+.wxl-ding-li .wxl-ding-box {
+  margin-left: 0.6rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  box-shadow: 0px 10px 5px #CECECE;
+  width: 6.43rem;
+  height: 2.3rem;
+  position: relative;
+}
+.wxl-ding-li .wxl-ding-box .wxl-ding-jia {
+  width: 0.4rem;
+  height: 0.4rem;
+  bottom: 0.25rem;
+  right: 0.18rem;
+  position: absolute;
+}
+.wxl-ding-li .wxl-ding-box .wxl-ding-jia img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxl-ding-li .wxl-ding-box .wxl-ding-img {
+  display: block;
+  width: 2.2rem;
+  height: 1.97rem;
+  border-radius: 0.1rem;
+  box-shadow: 0 5px 8px #CECECE;
+  margin: 0.2rem 0;
+  overflow: hidden;
+  position: relative;
+  left: -0.4rem;
+  float: left;
+}
+.wxl-ding-li .wxl-ding-box .wxl-ding-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxl-ding-li .wxl-ding-box .wxl-ding-h2 {
+  color: #474747;
+  margin-top: 0.3rem;
+  font-size: 0.28rem;
+  display: block;
+  float: left;
+}
+.wxl-ding-li .wxl-ding-box .wxl-ding-p {
+  display: block;
+  width: 50%;
+  font-size: 0.15rem;
+  float: left;
+  color: #474747;
+  margin-top: 0.15rem;
+}
+.wxl-ding-li .wxl-ding-box .wxl-faxing {
+  width: 40%;
+  display: block;
+  color: #474747;
+  float: left;
+  margin-top: 0.45rem;
+  line-height: 0.47rem;
+  height: 0.47rem;
+}
+.wxl-ding-li .wxl-ding-box .wxl-faxing .wxl-i {
+  font-style: normal;
+  color: #1BB7FF;
+  display: block;
+  float: left;
+  margin-top: 0.05rem;
+}
+.wxl-ding-li .wxl-ding-box .wxl-faxing span {
+  display: inline-block;
+  font-size: 0.18rem;
+  line-height: 0.45rem;
+}

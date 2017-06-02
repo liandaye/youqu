@@ -1,0 +1,176 @@
+@import url(base.css);
+
+body{
+	width: 100%;
+	height: 100%;
+	background: #F7F7F7;
+}
+
+/*头部开始*/
+.tou{
+	width: 100%;
+	height: .85rem;
+	background: url(../image/py-re.png) round;
+
+}
+.back{
+	width: .44rem;
+	height: .72rem;
+	float: left;
+	/*background: red;*/
+
+}
+.back img{
+	width: 100%;
+	margin-top: .2rem;
+	margin-left: .1rem;
+}
+.tj{
+	width: 2rem;
+	height: 100%;
+	/*background: red;*/
+/*	float: left;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: .85rem;
+
+}
+.tj h2{
+	color: #ffffff;
+	font-weight: 200;
+	line-height: .85rem;
+	font-size: 18px;
+}
+/*头部结束*/
+/*轮播开始*/
+.swiper-container{
+	width: 100%;
+	height: 4rem;
+	/*background: red;*/
+}
+.swiper-slide{
+	width: 100%;
+	height: 4rem;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+	/*height: 4rem;*/
+}
+/*轮播结束*/
+
+/*选项开始*/
+.whi{
+	width: 100%;
+	height: 4rem;
+	margin: .45rem auto;
+	background: #ffffff;
+	overflow: hidden;
+	/*position: relative;*/
+}
+.one{
+	width: 7.04rem;
+	height: .38rem;
+	/*background: red;*/
+	/*position: absolute;*/
+	margin: .52rem auto;
+	display: flex;
+	justify-content:space-between;
+
+}
+.left{
+	width: 2.48rem;
+	height: 100%;
+	/*background: yellow;*/
+}
+.cf{
+	width: auto;
+	height: 100%;
+	text-align: center;
+	float: left;
+	/*background: blue;*/
+
+}
+.cf p{
+	line-height: .38rem;
+	font-size: 16px;
+	font-weight: 600;
+}
+.xz{
+	width: 1.6rem;
+	height: 100%;
+	/*background: pink;*/
+	float: right;
+	border-bottom: 2px solid #E6E6E6;
+	box-sizing:border-box;
+	text-align: center;
+}
+.xz p{
+	line-height: .36rem;
+	text-indent: .1rem;
+	float: left;
+	font-size: 14px;
+}
+.san{
+	width: .25rem;
+	height: auto;
+	/*background: blue;*/
+	float: right;
+	margin-top: -.05rem;
+}
+.san img{
+	width: 100%;
+}
+.xian{
+	width: 1.38rem;
+	height: 4rem;
+	/*background: red;*/
+	position: absolute;
+	margin-left: 3rem;
+	margin-top: -4.12rem;
+}
+.xian img{
+	width: 100%;
+	height: 100%;
+}
+.flght{
+	width: .58rem;
+	height: .58rem;
+	/*background: red;*/
+	position: absolute;
+	margin-left:4rem;
+	margin-top: -2.5rem;
+	z-index: 999;
+}
+.flght img{
+	width: 100%;
+}
+/*选项结束*/
+
+/*提交开始*/
+.ti{
+	width: 100%;
+	height: .98rem;
+	background: #F2B634;
+	margin: .4rem auto;
+	text-align: center;
+}
+.ti p{
+	color: white;
+	line-height: .98rem;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

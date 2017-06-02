@@ -1,0 +1,283 @@
+@import url(base.css);
+body,ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url('../fonts/AgencyFB.ttf');
+}
+body{
+	background-color: #F7F7F7;
+}
+
+html{
+	position: relative;
+	/*height: 100%;*/
+}
+body {
+	height: 100%;
+	width: 100%;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+
+}
+.splash{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index: 9999999999!important;
+	overflow: hidden;
+
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide{
+	position: relative;
+}
+.skip{
+	display: block;
+	position: absolute;
+	top:0.7rem;
+	right:0.5rem;
+	font-size: 14px;
+	line-height:0.5rem;
+	width:1rem;
+	height:0.5rem;
+	border-radius:5px;
+	background: #3A3A3A;
+	color: #fff;
+}
+.login{
+	width: 3.2rem;
+	height: 1rem;
+	background: #00545A;
+	position: absolute;
+	bottom:1rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	font-size:18px;
+	border-radius: 10px;
+}
+
+
+
+/*头部开始*/
+	.hj-header{
+		height: 0.92rem;
+		width: 100%;
+		background: rgba(0,0,0,0.36);
+		position: absolute;
+		padding: 0 0.25rem;
+		z-index: 99999;
+	}
+	.hj-header .hj-adress{
+		width: 0.43rem;
+		height: 0.43rem;
+		float: left;
+		margin-top: 0.245rem;
+
+	}
+	.hj-header .hj-adress a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.hj-header .hj-message{
+		width: 0.43rem;
+		height: 0.43rem;
+		float: right;
+		margin-top: 0.245rem;
+
+	}
+	.hj-header .hj-message a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+/*头部结束*/
+
+/*banner开始*/
+	.hj-banner{
+		width: 100%!important;
+		height: 5rem!important;
+		position: relative!important;
+		overflow: hidden!important;
+	}
+	.swiper-wrapper .swiper-slide img{
+		/*position: absolute;*/
+		/*bottom: 0;*/
+	}
+/*搜索*/
+	.hj-search{
+		width: 4.6rem;
+		height: 0.42rem;
+		border: 1px solid #fff;
+		border-radius: 0.2rem;
+		position: absolute;
+		top: 2.83rem;
+		left: 1.45rem;
+		z-index: 99999;
+		padding: 0 0.45rem;
+		overflow: hidden;
+		line-height: 0.3rem;
+
+	}
+	.hj-biggrass{
+		width: 0.45rem;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		background-color: rgba(0,0,0,0.2);
+
+	}
+	.hj-biggrass img{
+		width: 0.25rem;
+		margin-left: 0.13rem;
+		margin-top: 0.08rem;
+	}
+	.hj-search input{
+		background-color: transparent;
+		width: 3.7rem;
+		height: 100%;
+		padding-left: 0.13rem;
+		font-size: 12px;
+		color: #A9A9A9;
+	}
+
+	.hj-voice{
+		width: 0.45rem;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background-color: rgba(0,0,0,0.2);
+		text-align: center;
+
+	}
+	.hj-voice img{
+		width: 0.17rem;
+		height: 0.21rem;
+		margin-top: 0.1rem;
+	}
+/*视口*/
+	.hj-views{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+/*选项卡容器*/
+	.hj-pageContain{
+		width: 200%;
+		height: auto;
+		-webkit-transition:transform 1s;
+		transition:transform 1s;
+
+	}
+	.hj-pageContain:after{
+		content: '';
+		display: block;
+		clear: both;
+		width: 0;
+		height: 0;
+	}
+
+
+
+
+/*footer*/
+	.hj-footer1{
+		width: 100%;
+		height: 1.1rem;
+		background: #242E3A;
+		position: fixed;
+		bottom: 0;
+		z-index: 9999999;
+	}
+	.hj-footItems{
+		width: 100%;
+		height: 100%;
+		padding: 0 0.25rem;
+	}
+	.hj-footItems li{
+		width: 25%;
+		height: 100%;
+		/*background: #fff;*/
+		float: left;
+		position: relative;
+	}
+	.hj-footItems li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		padding-bottom: 0.1rem;
+		padding-top: 0.08rem;
+
+	}
+	.hj-footItems li a span{
+		display: inline-block;
+		/*width: 100%;*/
+		text-align: center;
+		height: 0.4rem;
+		line-height: 0.4rem;
+		color: #D7D8D9;
+		border-top: 1px solid #EFCB16;
+		font-size: "苹方","微软雅黑";
+		font-size: 12px;
+		margin-top: 0.1rem;
+	}
+	.hj-footItems li a i{
+		display: block;
+		width: 100%;
+		height: 0.4rem;
+		
+	}
+	.hj-footItems li a i em{
+		display: inline-block;
+		width: 0.5rem;
+		height: 120%;
+		border-radius: 50%;
+		background: #00364A;
+		/*vertical-align: middle;*/
+	}
+	.hj-footItems li a i img{
+		width: 0.4rem;
+		height: 0.4rem;
+		vertical-align: middle;
+	}
+	.hj-footItems .active:after{
+		content: '';
+		width: 100%;
+		height: 110%;
+		display: block;
+		background: #EFCB16;
+		position: absolute;
+		top: -10%;
+		z-index: -11;
+		border-radius: 0.1rem;
+	}

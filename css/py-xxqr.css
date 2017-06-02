@@ -1,0 +1,205 @@
+@import url(base.css);
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #F7F7F7;
+	
+}
+
+/*头部开始*/
+.tou{
+	width: 100%;
+	height: .85rem;
+	background: url(../image/py-re.png) round;
+
+}
+.back{
+	width: .44rem;
+	height: .72rem;
+	float: left;
+	/*background: red;*/
+
+}
+.back img{
+	width: 100%;
+	margin-top: .2rem;
+	margin-left: .1rem;
+}
+.tj{
+	width: 2rem;
+	height: 100%;
+	/*background: red;*/
+/*	float: left;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: .85rem;
+
+}
+.tj h2{
+	color: #ffffff;
+	font-weight: 200;
+	line-height: .85rem;
+	font-size: 18px;
+}
+/*头部结束*/
+/*航班信息开始*/
+.hb{
+	width: 7.02rem;
+	height: 1.32rem;
+	/*background: red;*/
+	margin: .4rem auto;
+}
+.hb img{
+	width: 100%;
+}
+/*航班信息结束*/
+/*个人信息开始*/
+.in{
+	width: 2.43rem;
+	height: .27rem;
+	/*background: red;*/
+	margin-left: .25rem;
+	margin-top: -.2rem;
+}
+.in img{
+	width: 100%;
+}
+.gr{
+	width: 1.91rem;
+	height: .36rem;
+	/*background: red;*/
+	margin-left: .25rem;
+	margin-top: .07rem;
+}
+.gr p{
+	font-size: 16px;
+	float: left;
+	line-height: .36rem;
+}
+.y{
+	width: .36rem;
+	height: .1rem;
+	/*background: yellow;*/
+	float: right;
+	margin-top: -.1rem;
+}
+.y img{
+	width: 100%;
+	/*margin-top: -.2rem;*/
+}
+
+.box{
+	width: 7.02rem;
+	height: 3.07rem;
+	background: white;
+	margin: .2rem auto;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.one{
+	width: 6.1rem;
+	height: .6rem;
+	/*background: red;*/
+	margin: .3rem auto;
+}
+.one p{
+	font-size: 14px;
+	float: left;
+	line-height: .6rem;
+}
+.put{
+	width: 4.75rem;
+	height: .6rem;
+	/*background: yellow;*/
+	float: right;
+	border:1px solid #66CBE8;
+	border-radius: 2px;
+}
+#pu{
+	width: 100%;
+	height: 100%;
+	text-indent: .1rem;
+	color: #CECECE;
+}
+/*添加乘机人列表*/
+.add{
+	width: 7.03rem;
+	height: .77rem;
+	/*background: red;*/
+	margin: 0 auto;
+	border-bottom: 1px dashed #A9A9A9;
+	box-sizing:border-box;
+}
+.add p{
+	font-size: 14px;
+	line-height: .77rem;
+	float: left;
+}
+.ad{
+	width: .31rem;
+	height: .31rem;
+	border-radius: 50%;
+	/*background: yellow;*/
+	float: left;
+	margin-top: .18rem;
+	margin-left: .2rem;
+}
+.ad img{
+	width: 100%;
+}
+.addd{
+	width: 7.03rem;
+	height: 1.18rem;
+	/*background: red;*/
+	margin: 0 auto;
+	border-bottom: 1px dashed #A9A9A9;
+	box-sizing:border-box;
+}
+.addd p{
+	font-size: 14px;
+	line-height: .6rem;
+	float: left;
+}
+
+/*添加乘机人列表结束*/
+
+/*个人信息结束*/
+
+/*付款开始*/
+.tab{
+	width: 7.02rem;
+	height: .84rem;
+	margin: .93rem auto;
+	/*background: red;*/
+	/*border-radius: 5px;*/
+}
+.left{
+	width: 50%;
+	height: 100%;
+	background: #66CBE8;
+	float: left;
+	border-radius: 5px 0 0 5px;
+	text-align: center;
+}
+.left p{
+	color: #fff;
+	font-weight: 200;
+	line-height: .84rem;
+
+}
+.right{
+	width: 50%;
+	height: 100%;
+	background: #F2B634;
+	float: right;
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+}
+.right p{
+	color: #fff;
+	font-weight: 200;
+	line-height: .84rem;
+
+}
+/*付款结束*/

@@ -1,0 +1,222 @@
+
+body{
+	background: #EDEDED;
+	font-size: .24rem;
+}
+
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url('../fonts/AgencyFB.ttf');
+}
+
+/*内容开始*/
+	/*订单管理列表开始*/
+		section{
+			margin: 1.8rem .25rem .4rem .25rem;
+			
+		}
+		section>.gh-top{
+			background: #fff;
+			border-radius: 0.1rem;
+			padding: .3rem .4rem;
+			height: 5.85rem;
+			overflow: hidden;
+		}
+		section>.gh-top>ul{
+			overflow: hidden;
+		}
+		section>.gh-top>ul>li{
+			width: 100%;
+			overflow: hidden;
+			border-bottom: 1px solid #DCDCDC;
+			margin-top: .3rem;
+			height: .5rem;
+			line-height: .5rem;
+		}
+
+		section>.gh-top>ul>li>a>.gh-left>img{
+			width: .32rem;
+			position:absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+		section>.gh-top>ul>li>a>.gh-right>img{
+			height: .33rem;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+		}
+		section>.gh-top>ul>li>a>.gh-right>span{
+			margin-right: .4rem;
+		}
+		section>.gh-top>ul>li>a{
+			width: 100%;
+			display: block;
+			height: auto;
+			color: #6A6767;
+		}
+
+		section>.gh-top>ul>li>a>.gh-left{
+			float: left;
+			position: relative;
+		}
+		section>.gh-top>ul>li>a>.gh-left>*{
+			float: left;
+		}
+		section>.gh-top>ul>li>a>.gh-left>span:nth-child(2){
+			font-size: .28rem;
+			display: block;
+			width: 1.3rem;
+			margin-left: .5rem;
+		}
+
+		section>.gh-top>ul>li>a>.gh-left>span:last-child{
+			font-size: .1rem;
+		}
+
+		section>.gh-top>ul>li>a>.gh-right{
+			float: right;
+			position: relative;
+		}
+		section>.gh-top>ul>li>a>.gh-right>img{
+			transform:rotate(90deg);
+		}
+	/*订单管理列表结束*/
+
+
+	
+/*热门推荐*/
+	section>.gh-h2{
+		margin: .5rem 0 .04rem 0;
+		position: relative;
+	}
+	section>.gh-h2>.gh-zl{
+		position: absolute;
+		height: .07rem;
+		left: 1.47rem;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	section>.gh-h2>.gh-zl>.gh-span{
+		width: .1rem;
+		height: .1rem;
+		float: left;
+		margin-right: .08rem;
+	}
+	section>.gh-h2>.gh-zl>.gh-span:last-child{
+		background: #FCC71F;
+	}
+	
+	section>.gh-h3{
+		margin: 0 0 .65rem 0;
+		font-weight: normal;
+	}
+	section>.gh-h3>span{
+		font-weight: bold;
+	}
+
+/*热门推荐的列表内容*/
+	section{
+		padding-bottom: .5rem;
+	}
+	section>.gh-bom{
+		width: 100%;
+		height: auto;
+	}
+	section>.gh-bom>ul>li{
+		width: 100%;
+		padding: .26rem .18rem;
+		overflow: hidden;
+		box-sizing:border-box;
+		margin-bottom: .4rem;
+		background: url(../image/gh-section.png) no-repeat center center/cover;
+	}
+	section>.gh-bom>ul>li>*{
+		float: left;
+	}
+	section>.gh-bom>ul>li>.gh-left>a>img{
+		width: 3.16rem;
+		height: 1.90rem;
+	}
+	section>.gh-bom>ul>li>.gh-right{
+		margin-left: .1rem;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-p{
+		width: 3.2rem;
+		margin: .18rem 0 0 0;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp:2;
+		-webkit-box-orient:vertical;
+		font-size: .2rem;
+		line-height: 1.3;
+	}
+	section>.gh-bom>ul>li>.gh-right>a>.gh-title{
+		margin: 0;
+		width: auto;
+		font-size: .3rem;
+		font-weight: bold;
+		border-bottom: 1px dotted #C4C7CE;
+		padding-bottom: .08rem;
+		box-sizing:border-box;
+	}
+	section>.gh-bom>ul>li>.gh-right>a>.gh-title>span{
+		font-weight: normal;
+		font-size: .3rem;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-may{
+		margin: 0;
+		font-size: .3rem;
+		color: #EE2A49;
+		font-weight: bold;	
+		font-family: pictos;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-may>s{
+		color: #9D9D9D;
+		font-weight: normal;
+		font-family: pictos;
+		margin-left: .1rem;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-bom{
+		border-top: 1px solid #C2C5CC;
+		padding-top: .09rem;
+		margin-top: .09rem;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-bom>.gh-le{
+		float: left;		
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-bom>.gh-le>span{
+		float: left;
+		margin-right: .1rem;
+		padding-left: .24rem;
+		position: relative;
+		font-size: .2rem;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-bom>.gh-le>span>img{
+		height: .13rem;
+		margin-right: .1rem;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	section>.gh-bom>ul>li>.gh-right>.gh-bom>.gh-ri{
+		margin-right: .12rem;
+	}
+
+	section>.gh-bom>ul>li>.gh-right>.gh-bom>.gh-ri>span{
+		width: .17rem;
+		height: .17rem;
+		float: right;
+		background:  url(../image/gh-tubiao7.png) no-repeat center center / cover;
+	}
+

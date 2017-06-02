@@ -1,0 +1,48 @@
+
+
+
+/*内容开始*/
+
+section{
+	text-align: center;
+}
+section>.gh-cen{
+	width: 1.79rem;
+	height: 2.06rem;
+	margin-top: 4.05rem;
+}
+section>p{
+	margin: 0;
+}
+section>.gh-pl{
+	font-size: .28rem;
+	color: #505050;
+	margin-bottom: .1rem;
+}
+section>.gh-ctn{
+	width: .66rem;
+	margin-bottom: .1rem;
+}
+section>.gh-ps{
+	color: #AFAFAF;
+}
+section>div{
+	width: 3.61rem;
+	height:0.8rem;
+	border-radius: 0.4rem;
+	background: url(../image/gh-button.png) no-repeat center center / cover ;
+	margin: .61rem auto 0 ;
+	padding-top: .04rem;
+	overflow: hidden;
+}
+section>div>a{
+	color: #fff;
+}
+section>div>a>p{
+	margin: 0;
+}
+section>div>a>p:last-child{
+	color: #41A3EE;
+	font-size: .2rem;
+	margin-top: .04rem;
+}

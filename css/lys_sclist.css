@@ -1,0 +1,718 @@
+@import "base.css";
+/*头部开始*********************************/
+a{
+	color: #fff;
+}
+body,html{
+	position: relative;
+	display: flex;
+	font-family:"苹方";
+	background:#E5E8EA;
+	flex-direction: column;
+	/*overflow: auto;*/
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 1.1rem;
+	padding: 0 0.24rem;
+	/*background:#063E50;*/
+	background: url("../image/lys_01.jpg") no-repeat center center/cover;
+}
+.lys_bt{
+	width: auto;
+	text-align: center;
+}
+.lys_fsbtnew{
+	width: auto;
+}
+
+.lys_bt span{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+}
+.lys_btxian{
+	width: 0.5rem;
+	height: 0.06rem;
+	margin: 0 auto;
+	margin-bottom: 0.08rem;
+	background: #49463C;
+	position: relative;
+}
+.lys_btenglish{
+	color: #fff;
+	font-size: 12px;
+}
+.lys_btxian i{
+	width: 0.36rem;
+	height: 0.06rem;
+	background: #fff;
+	position: absolute;
+	top: 0rem;
+	font-style: normal;
+	left: 0.069rem;
+}
+.lys_fsbtinner{
+	font-style: normal;
+	font-family: "苹方";
+}
+.lys_fsbt{
+	font-style: normal;
+}
+/*头部结束***********************************/
+/*列表收藏开始********************************/
+section{
+	width: 100%;
+	flex:auto;
+	background:#E5E8EA;
+	padding: 0rem  0.24rem;
+}
+.lys_box{
+	width: 100%;
+	/*height: 3.26rem;*/
+	padding: 0 0.36rem;
+	padding-bottom: 0.66rem;
+	margin-top: 0.3rem;
+	border-radius: 5px;
+	background: #fff;
+}
+.lys_sctop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 1.06rem;
+	/*background: #000;*/
+}
+.lys_sctop span{
+	font-size: 12px;
+}
+.lys_ming{
+	display: flex;
+	align-items: center;
+}
+.lys_ming span{
+	display: block;
+	width: 0.64rem;
+	height: 0.64rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 0.24rem;
+}
+.lys_ming img{
+	width: 0.64rem;
+}
+.lys_ming h3{
+	color: #000;
+}
+.lys_scxia{
+	display: flex;
+	height: 1.56rem;
+	margin-top: 0.2rem;
+	justify-content: space-between;
+}
+.lys_scimg{
+	width: 2.97rem;
+	height: 1.56rem;
+	border-radius: 5px;
+	overflow: hidden;
+	
+}
+.lys_scA{
+	background: url(../image/lys_2.jpg) center center/cover;
+}
+.lys_scB{
+	background: url(../image/lys_3.jpg) center center/cover;
+}
+.lys_scC{
+	background: url(../image/lys_7.jpg) center center/cover;
+}
+.lys_scD{
+	background: url(../image/lys_8.jpg) center center/cover;
+}
+.lys_scE{
+	background: url(../image/lys_s99.jpg) center center/cover;
+}
+.lys_scF{
+	background: url(../image/lys_ss1.jpg) center center/cover;
+}
+.lys_box p{
+	font-size: 12px;
+	margin-top: 0.28rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/*收藏列表结束**************************/
+/*收藏列表mack开始**********************/
+.lys_scmask{
+	display:block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	left:-100%;
+	top: 0px;
+	z-index: 555;
+}
+.lys_scmask_box{
+	width: 100%;
+    height: 7.36rem;
+    position: absolute;
+    top: 2.5rem;
+    left: -100%;
+    z-index: 666;
+    overflow: hidden;
+}
+.lys_scmask_box img{
+	width: 100%;
+	height: 100%;
+}
+.lys_swiper_dian{
+	width: 100%;
+	height: 0.3rem;
+	position: absolute;
+	bottom: 0px;
+	background: rgba(0,0,0,0.3);
+	z-index: 666;
+	text-align: center;
+	line-height: 0.3rem;
+}
+
+.lys_scmask_wrap{
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	width: 400%;
+	height: 100%;
+	box-sizing: content-box;
+}
+.lys_scmask_imgbox{
+		width: 25%;
+		height: 7.36rem;
+		float: left;
+       background: red;
+}
+.swiper-pagination-bullet {
+    width: 0.18rem;
+    height: 0.18rem;
+    display: inline-block;
+    border-radius: 100%;
+    background: #B8B8B8;
+    opacity: .2;
+    margin: 0 auto;
+    margin-right: 0.3rem;
+    text-align: center;
+}
+.swiper-pagination-bullet-active {
+    opacity: 0.8;
+    background: #fff;
+}
+/*收藏列表mask结束**********************/
+/*粉丝头部开始**************************/
+.lys_fsul{
+	display: flex;
+	width: 100%;
+	height: 0.54rem;
+	background: #00455F;
+
+}
+.lys_fsul li{
+	display: flex;
+	width: 50%;
+	justify-content:center;
+	align-items:center;
+}
+.lys_fsul li a{
+	line-height: 0.54rem;
+	font-size: 14px;
+}
+.lys_fsbgcolor{
+	background: #a2a2a2;
+}
+/*粉丝头部结束****************************/
+/*粉丝内绒开始*****************************/
+.lys_fssec{
+	width:100%;
+	padding:0px;
+	background: #fff;
+	height: 100%;
+	overflow: hidden;
+}
+.lys_fssbox{
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+.lys_fsbgbox{
+	width: 200%;
+	height: auto;
+	overflow: hidden;
+}
+.lys_fssecul{
+	width: 50%;
+	overflow: auto;
+	float: left;
+	/*height: 100%;*/
+}
+.lys_fssecli{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	height: 0.7rem;
+	width: 100%;
+	background: #fff;
+	margin: 0.2rem 0rem;
+	padding: 0rem  0.24rem;
+}
+/*.lys_fssecli:hover{
+	background: #D1E1E7;
+}*/
+.lys_fsleft{
+	display: flex;
+	justify-content:space-between;
+	height: 100%;
+}
+.lys_fsleftimg{
+	display: block;
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 0.14rem;
+}
+.lys_fsleftimg img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.lys_fsrig{
+	display: flex;
+	flex-direction:column;
+	height: 100%;
+	justify-content:space-between;
+}
+.lys_fsrig p{
+	font-size: 12px;
+	color: #737373;
+}
+.lys_fsrig span{
+	font-size: 12px;
+	color: #737373;
+}
+.lys_fsright{
+	width: 0.37rem;
+	height: 0.35rem;
+	color: #737373;
+}
+.lys_fsright img{
+	width: 0.37rem;
+	height: 0.35rem;
+}
+.lys_fsyiimg{
+/*display: none;*/
+}
+.lys_fserimg{
+  display: none;
+}
+.lys_fsAimg{
+	display: none;
+}
+.fsactive{
+	background: #D1E1E7;
+}
+.fshong{
+	color: #F44846;
+}
+/*粉丝内绒结束*****************************/
+/*粉丝遮罩**********************************/
+.lys_fsmask{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0px;
+	left: 100%;
+}
+.lys_fsku{
+	width: 3.9rem;
+	height: 2.68rem;
+	position: absolute;
+	left: 0.5rem;
+	top: -1.8rem;
+	background: url(../image/lys_yu.png) no-repeat center center/cover;
+}
+.lys_fstc{
+	position: absolute;
+	top:3.28rem;
+	left:1.08rem;
+	width: 5.2rem;
+	border-radius: 9px;
+	height: 2.84rem;
+	padding: 0rem 0.34rem;
+	text-align: bottom;
+	background: url(../image/lys_qu.jpg) no-repeat center center/cover;
+}
+.lys_fstc a{
+	display: block;
+	width: 2.18rem;
+	height: 0.7rem;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 10px;
+	color: #fff;
+	margin-top: 1.9rem;
+	border-radius: 25px;
+}
+
+.lys_fstc .lys_fsqx{
+	float: right;
+	background: #FFA018;
+}
+.lys_fstc .lys_fsqd{
+	float: left;
+	background: #5097F9;
+}
+/*粉丝遮罩结束*/
+/*浏览历史列表*****************************/
+.lys_ls{
+	height: 100%;
+	background: #E5E8EA;
+}
+.lys_lsul{
+	display: flex;
+	flex-direction:column;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.25rem;
+	margin-top: 0.38rem;
+}
+.lys_lsul p{
+	width: auto;
+	height: 100%;
+	margin-bottom: 0.05rem;
+	font-size: 12px;
+
+}
+.lys_lsul .lys_lsli{
+	display: flex;
+	width: 100%;
+	height: 0.88rem;
+	margin-top: 0.15rem;
+	/*background: red;*/
+}
+.lys_lssp{
+	width:0.52rem;
+	height: 0.88rem;
+}
+.lys_lsrig{
+	display: flex;
+	background: #fff;
+	flex:1 0 auto;
+	justify-content: space-between;
+	border-radius: 5px;
+	padding-right: 0.3rem;
+}
+.lys_lstxt{
+	padding: 0.1rem;
+	font-size: 12px;
+}
+.lys_lsimg{
+	width: 1.38rem;
+	height: 0.6rem;
+	border-radius: 5px;
+	/*overflow: hidden;*/
+	padding: 0.15rem;
+}
+.lys_lsimg .lys_lsrbox{
+	display: block;
+	border-radius: 5px;
+	width: 1.38rem;
+	height: 0.6rem;
+	
+}
+.lys_Als{
+	background: url(../image/lys_8.jpg) no-repeat center center/90px;
+}
+.lys_Bls{
+	background: url(../image/lys_b1.jpg) no-repeat center center/90px;
+}
+.lys_Cls{
+	background: url(../image/lys_b2.jpg) no-repeat center center/90px;
+}
+.lys_Dls{
+	background: url(../image/lys_b3.jpg) no-repeat center center/90px;
+}
+.lys_Els{
+	background: url(../image/lys_b4.jpg) no-repeat center center/90px;
+}
+.lys_Fls{
+	background: url(../image/lys_b5.jpg) no-repeat center center/90px;
+}
+/*个性签名*************************************/
+.lys_qm{
+	background: #fff;
+	height: 100%;
+}
+.lys_qmbox{
+	display: flex;
+	border-bottom: 1px solid #000;
+}
+.lys_qminput{
+	width: 6rem;
+	height: 0.4rem;
+	border: none;
+	width: 100%;
+	margin-top: 0.2rem;
+	font-style: normal;
+
+}
+.lys_nameinput{
+	width: 6rem;
+	height: 0.4rem;
+	border: none;
+	width: 100%;
+	margin-top: 0.2rem;
+	font-style: normal;
+
+}
+.lys_qm span{
+	display: flex;
+	align-items:center;
+	margin-left: 0.1rem;
+	color: #676767;
+}
+.lys_qmts{
+	margin-top: 0.14rem;
+	font-size:12px;
+	color: #676767;
+}
+.lys_qm .lys_qmjg{
+	font-size: 12px;
+	color: red;
+}
+/*个性签名结束*************************************/
+
+/*个人中心开始**************************************/
+.lys_grzx{
+	background: #fff;
+	padding: 0px;
+}
+.lys_grli{
+	width: 100%;
+	height: 1.13rem;
+	border-bottom: 1px solid #bebebe;
+	padding: 0px 0.24rem;
+}
+.lys_grli a{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	width: 100%;
+	height: 100%;
+}
+
+.lys_grleft{
+	color: #737373;
+}
+.lys_qmname{
+	/*flex:1 0 auto;*/
+	width:4.6rem;
+	color: #000;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.lys_grqma{
+	color: #000;
+}
+.lys_grimg{
+	width: 0.86rem;
+	height: 0.86rem;
+}
+.lys_grname{
+	color: #737373;
+}
+.lys_grsz{
+	opacity: 0;
+	font-size: 10px;
+}
+.lys_gractive{
+	background: #D9D9D9;
+}
+.lys_ncbox{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: -100%;
+	/*left: 0px;*/
+	top: 0px;
+}
+.lys_qmmaxbox{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.lys_grxcmask{
+    width: 100%;
+    height:0px;
+    background-color:rgba(76,76,76,0.8);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+.lys_grxc{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+.lys_txlis{
+    width: 100%;
+    height: 1.14rem;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #A2A2A2;
+    text-align: center;
+    line-height: 1.14rem;
+    position: relative;
+}
+.lys_pz{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	/*outline:none;*/
+	/*border: none;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	/*background: transparent;*/
+	/*transform:translate(-50%,-50%);*/
+}
+.lys_yjxc{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	/*outline:none;*/
+	/*border: none;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.lys_txlis a{
+    color: #000;
+}
+/*在线客服***************************************/
+.lys_lt{
+	overflow: auto;
+}
+.lys_ltbox{
+	height: 100%;
+	background: #fff;
+	width: 100%;
+}
+.lys_ltul{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 0.58rem 0.28rem;
+
+}
+.lys_ltli{
+	width: 0.96rem;
+	height: 100%;
+}
+.lys_ltli img{
+	width: 0.54rem;
+	height: 0.54rem;
+}
+.lys_ltnr{
+	width: 90%;
+	flex:1 0 auto;
+	height: auto;
+	font-size: 12px;
+	padding: 0.24rem 0.28rem;
+	background: #eeeeee;
+	border-radius: 5px;
+	padding-bottom: 0.5rem;
+}
+.lys_ltme{
+	text-align: right;
+}
+.lys_ltsr{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	bottom: 0px;
+	background: #fff;
+	padding: 0rem 0.24rem;
+}
+.lys_ltico{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top: -0.3rem;
+	margin-right: 0.38rem;
+}
+.lys_ltico img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.lys_ltiput{
+	width: 42.8rem;
+	height: 0.5rem;
+	border: 1px solid #eeeeee;
+	border-radius: 5px;
+}
+.lys_ltget{
+	width: 9.5rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-left: 0.5rem;
+	font-size: 12px;
+	border-radius: 8px;
+	background: #1594FA;
+	color: #fff;
+}
+/*二维码**************************************/
+.lys_rwmsec{
+	background: #fff;
+	height: 100%;
+}
+.lys_rwmbox{
+	width: 4.7rem;
+	height: 6.14rem;
+	margin:0 auto;
+	margin-top: 0.8rem;
+	position: relative;
+}
+.lys_rwmbox img{
+	width: 4.9rem;
+}
+.lys_rwm{
+     width: 2.6rem;
+    height: 2.6rem;
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.16rem;
+    padding: 0.2rem;
+}
+.lys_rwm img{
+	width: 100%;
+}
+/*二维码结束**************************************/
+.lys_fan img{
+	height: 0.38rem;
+}
+header a img{
+	height: 0.38rem;
+}
+/**/

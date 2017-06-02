@@ -1,0 +1,539 @@
+body {
+  background: #EEEEEE;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.wxl-zhe {
+  position: fixed;
+  z-index: 55;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.wxl-header {
+  width: 100%;
+  height: 0.94rem;
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  background: url("../image/wxl-14.png");
+}
+.wxl-header .wxl-top {
+  margin: 0 0.23rem;
+  height: 100%;
+  text-align: center;
+}
+.wxl-header .wxl-top .wxl-left-a {
+  display: block;
+  width: 0.5rem;
+  height: 100%;
+  float: left;
+}
+.wxl-header .wxl-top .wxl-left-a .wxl-left {
+  width: 0.5rem;
+  height: 100%;
+  line-height: 0.94rem;
+  font-size: 0.3rem;
+  color: #FFF;
+  text-align: center;
+}
+.wxl-header .wxl-top .wxl-right-a {
+  display: block;
+  width: 0.65rem;
+  height: 100%;
+  float: right;
+}
+.wxl-header .wxl-top .wxl-right-a .wxl-right {
+  width: 0.65rem;
+  height: 100%;
+  line-height: 0.94rem;
+  font-size: 0.3rem;
+  color: #FFF;
+  text-align: center;
+  float: right;
+  background: transparent;
+}
+.wxl-header .wxl-top form {
+  display: block;
+  height: 100%;
+}
+.wxl-header .wxl-top form .wxl-center {
+  display: inline-block;
+  width: 5.61rem;
+  height: 100%;
+  position: relative;
+}
+.wxl-header .wxl-top form .wxl-center .wxl-center-input {
+  width: 4.9rem;
+  padding: 0 0.2rem;
+  height: 0.53rem;
+  background: #fff;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 0.2rem;
+  color: #000;
+}
+.wxl-header .wxl-top form .wxl-center .wxl-center-right {
+  width: 0.75rem;
+  height: 0.53rem;
+  display: block;
+  background: #0A5977;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  line-height: 0.53rem;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.wxl-wei {
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 0.9rem;
+  background: url("../image/wxl-wan_03.png");
+  -webkit-background-size: 100%;
+  display: none;
+}
+.wxl-lishi {
+  display: none;
+}
+.wxl-kuang {
+  margin: 0 0.23rem;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 0.1rem;
+  position: fixed;
+  z-index: 3000;
+  display: none;
+}
+.wxl-kuang .wxl-k-tu {
+  margin-top: 0.45rem;
+  width: 100%;
+}
+.wxl-kuang .wxl-k-tu img {
+  display: block;
+  width: 1.6rem;
+  height: 1.9rem;
+  margin: 0 auto;
+}
+.wxl-kuang .wxl-k-tu .wxl-k-h1 {
+  margin-top: 0.25rem;
+  font-size: 0.29rem;
+  color: #5B5B5B;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+.wxl-kuang .wxl-k-tu .wxl-k-bth {
+  margin-top: 0.2rem;
+  overflow: hidden;
+  text-align: center;
+}
+.wxl-kuang .wxl-k-tu .wxl-k-bth .wxl-yes {
+  width: 1.85rem;
+  height: 0.6rem;
+  background: #F2B634;
+  color: #5B5B5B;
+  font-size: 0.29rem;
+  line-height: 0.6rem;
+  text-align: center;
+  display: inline-block;
+  margin: 0.3rem;
+  border-radius: 0.1rem;
+}
+.wxl-yesterday {
+  width: 100%;
+  margin-top: 0.1rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  position: relative;
+}
+.wxl-yesterday .wxl-yes-top {
+  background: #0072DD;
+  color: #fff;
+  padding: 0.15rem 0.35rem;
+  font-size: 0.18rem;
+}
+.wxl-yesterday .wxl-yes-ul {
+  margin-left: 0.2rem;
+  margin-right: 0.15rem;
+  background: #fff;
+  border-bottom: 0.01rem dashed #E5E5E5;
+}
+.wxl-yesterday .wxl-yes-ul .wxl-yes-p {
+  padding: 0.35rem 0;
+}
+.wxl-yesterday .wxl-yes-ul .wxl-yes-p a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.2rem;
+  color: #757575;
+}
+.wxl-yesterday .wxl-yes-ul .wxl-yes-p i {
+  color: #757575;
+  font-style: normal;
+  font-size: 0.2rem;
+  margin-right: 0.1rem;
+}
+.wxl-yesterday .wxl-yes-ul .wxl-yes-p span {
+  color: #757575;
+  font-style: normal;
+  font-size: 0.2rem;
+}
+.wxl-yesterday .wxl-res-blue {
+  background: #0072DD;
+  width: 2.34rem;
+  height: 0.34rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  position: absolute;
+  bottom: -0.34rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  font-size: 0.1rem;
+  text-align: center;
+  line-height: 0.34rem;
+}
+.wxl-container {
+  background: #F9F9F9;
+  width: 100%;
+  height: auto;
+  padding-top: 0.94rem;
+}
+.wxl-inside {
+  padding: 0 0.23rem;
+}
+.wxl-inside .wxl-title {
+  width: 100%;
+  padding-top: 0.36rem;
+}
+.wxl-inside .wxl-title .wxl-title-top {
+  text-align: center;
+  font-size: 0;
+}
+.wxl-inside .wxl-title .wxl-title-top i {
+  font-style: normal;
+  font-weight: 600;
+  color: #595959;
+  font-size: 0.18rem;
+}
+.wxl-inside .wxl-title .wxl-title-top i:nth-child(1) {
+  color: #D2D2D2;
+}
+.wxl-inside .wxl-title .wxl-title-top i:nth-child(2) {
+  color: #FED23A;
+}
+.wxl-inside .wxl-title .wxl-title-top i:nth-child(3) {
+  color: #595959;
+}
+.wxl-inside .wxl-title .wxl-title-bottom {
+  width: 100%;
+  text-align: center;
+}
+.wxl-inside .wxl-title .wxl-title-bottom span {
+  display: inline-block;
+  font-size: 0.2rem;
+}
+.wxl-inside .wxl-title .wxl-title-bottom img {
+  display: inline-block;
+}
+.wxl-inside .wxl-title .wxl-piao {
+  margin-top: 0.35rem;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.35rem;
+}
+.wxl-inside .wxl-title .wxl-piao .wxl-box {
+  border: 1px solid #176BBA;
+  height: 0.5rem;
+  width: auto;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 0.25rem;
+  margin: 0 0.1rem;
+  position: relative;
+}
+.wxl-inside .wxl-title .wxl-piao .wxl-box:before {
+  content: "·";
+  background: #fff;
+  color: #045FB5;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  line-height: 0.1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.05rem;
+  margin: auto;
+}
+.wxl-inside .wxl-title .wxl-piao .wxl-box:after {
+  content: "·";
+  background: #fff;
+  color: #045FB5;
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  line-height: 0.1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -0.05rem;
+  margin: auto;
+}
+.wxl-inside .wxl-title .wxl-piao .wxl-box p {
+  margin: 0 0.25rem;
+  line-height: 0.5rem;
+  font-size: 0.2rem;
+  text-align: center;
+  color: #C9C9C9;
+  float: left;
+}
+.wxl-frend {
+  margin-top: 0.15rem;
+  width: 100%;
+  background: #F9F9F9;
+}
+.wxl-frend .wxl-frend-box {
+  margin-top: 0.8rem;
+  overflow: hidden;
+}
+.wxl-frend .wxl-frend-box li {
+  display: block;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.1rem;
+  border-radius: 0.1rem;
+  overflow: hidden;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-one {
+  display: block;
+  width: 1.15rem;
+  height: 1.2rem;
+  float: left;
+  margin: 0.05rem 0 0.05rem 0.05rem;
+  border-radius: 0.1rem;
+  overflow: hidden;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-one img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-text {
+  display: block;
+  margin-top: 0.15rem;
+  float: left;
+  margin-left: 0.2rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-text .wxl-li-ones {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-text .wxl-li-ones b {
+  display: block;
+  width: 100%;
+  font-size: 0.226rem;
+  float: left;
+  color: #525252;
+}
+.wxl-frend .wxl-frend-box li .wxl-xin {
+  display: block;
+  float: right;
+  margin-top: 0.15rem;
+  margin-right: 0.2rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-xin .wxl-xinone {
+  width: 0.3rem;
+  height: 0.3rem;
+  display: block;
+  margin-left: 0.05rem;
+  color: #F5DB29;
+  float: left;
+  font-size: 0.2rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-six {
+  width: 4.29rem;
+  margin-top: 0.1rem;
+  font-size: 0.2rem;
+  color: #8F8F8F;
+  float: left;
+  margin-left: 0.2rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-di {
+  display: block;
+  width: 4.69rem;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.1rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-di .wxl-li-dione {
+  float: left;
+  width: 1rem;
+  line-height: 0.18rem;
+  overflow: hidden;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-di .wxl-li-dione:nth-child(2) {
+  width: 1.2rem;
+  margin-left: 0.2rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-di .wxl-li-dione:nth-child(3) {
+  width: 1.8rem;
+  margin-left: 0.2rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-di .wxl-li-dione i {
+  font-style: normal;
+  color: #0C92F2;
+  display: inline-block;
+  font-size: 0.17rem;
+}
+.wxl-frend .wxl-frend-box li .wxl-li-di .wxl-li-dione span {
+  color: #AFAFAF;
+  display: inline-block;
+  font-size: 0.17rem;
+}
+.wxl-frend .wxl-frend-box .wxl-button {
+  width: 100%;
+  display: block;
+  margin: 0.1rem 0;
+}
+.wxl-frend .wxl-frend-box .wxl-button .wxl-a {
+  width: 3.62rem;
+  height: 0.68rem;
+  display: block;
+  margin: 0 auto;
+  line-height: 0.62rem;
+  text-align: center;
+  background: url(../image/wxl-yuan.png) no-repeat;
+  background-size: 100% 100%;
+}
+.wxl-frend .wxl-frend-box .wxl-button .wxl-a .wxl-a-text {
+  width: 1.5rem;
+  display: inline-block;
+}
+.wxl-frend .wxl-frend-box .wxl-button .wxl-a .wxl-a-text i {
+  display: block;
+  font-style: normal;
+  color: #fff;
+  font-size: 0.24rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.wxl-f-top {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0.18rem;
+}
+.wxl-f-top .wxl-f-left {
+  display: block;
+  float: left;
+}
+.wxl-f-top .wxl-f-left .wxl-company {
+  float: left;
+  width: 0.3rem;
+  height: 0.3rem;
+  font-size: 0.24rem;
+  line-height: 0.24rem;
+  color: #47ACF4;
+}
+.wxl-f-top .wxl-f-left .wxl-f-text {
+  float: left;
+}
+.wxl-f-top .wxl-f-left .wxl-f-text p {
+  font-size: 0.24rem;
+  color: #727272;
+  font-weight: 600;
+  float: left;
+}
+.wxl-f-top .wxl-f-left .wxl-f-text .wxl-f-english {
+  height: 0.3rem;
+  width: 2.2rem;
+  text-transform: uppercase;
+  font-size: 0.1rem;
+  border-left: 0.05rem solid #999999;
+  padding-left: 0.1rem;
+  color: #9A9A9A;
+  margin-left: 0.1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+}
+.wxl-f-top .wxl-f-right {
+  float: right;
+  font-size: 0.14rem;
+  color: #BDBDBD;
+}
+.wxl-f-top .wxl-f-right i {
+  font-style: normal;
+  font-size: 0.14rem;
+}
+.wxl-jiu {
+  margin-top: 0.7rem;
+}
+.wxl-jiu .swiper-container {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.wxl-jiu .swiper-container .swiper-slide {
+  width: 3.37rem!important;
+  margin-right: 0.2rem!important;
+}
+.wxl-jiu .swiper-container .swiper-slide a {
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 0.1rem;
+  overflow: hidden;
+}
+.wxl-jiu .swiper-container .swiper-slide a img {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+}
+.wxl-jiu .swiper-container .swiper-slide a .wxl-jiu-text {
+  margin: 0.23rem 0.15rem 0 0.15rem;
+}
+.wxl-jiu .swiper-container .swiper-slide a .wxl-jiu-text .wxl-t-one {
+  font-size: 0.22rem;
+  color: #858585;
+}
+.wxl-jiu .swiper-container .swiper-slide a .wxl-jiu-text .wxl-t-one i {
+  font-style: normal;
+  color: #000;
+}
+.wxl-jiu .swiper-container .swiper-slide .wxl-swiper-zhou {
+  margin: 0 0.1rem;
+  background: #DFDFDF;
+  border-bottom-left-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
+  text-align: center;
+}
+.wxl-jiu .swiper-container .swiper-slide .wxl-swiper-zhou p {
+  display: inline-block;
+  font-size: 0.15rem;
+  color: #8D8D8D;
+  margin: 0.1rem 0;
+}

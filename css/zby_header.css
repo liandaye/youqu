@@ -1,0 +1,93 @@
+@import "base.css";
+/*头部开始*********************************/
+a{
+	color: #fff;
+}
+body,html{
+	position: relative;
+	display: flex;
+	font-family:"苹方";
+	background:#E5E8EA;
+	flex-direction: column;
+	/*overflow: auto;*/
+}
+.zby_header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 1.1rem;
+	padding: 0 0.24rem;
+	/*background:#063E50;*/
+	background: url("../image/lys_01.jpg") no-repeat center center/cover;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 9999999999;
+}
+.zby_jing{
+		display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.zby_mop{
+	margin-top: 0rem!important;
+}
+.zby_jing .zby_geti{
+	display: flex;
+	width: 2.45rem;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-left:0.1rem;
+}
+.zby_jing .zby_geti .zby_znu{
+	width: 2.45rem;
+	height: 0.65rem;
+	background: url("../image/zby_gtitle_03.png") no-repeat center center/cover;
+}
+.lys_bt{
+	width: auto;
+	text-align: center;
+}
+.lys_fsbtnew{
+	width: auto;
+}
+
+.lys_bt span{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+.lys_btxian{
+	width: 0.5rem;
+	height: 0.06rem;
+	margin: 0 auto;
+	margin-bottom: 0.08rem;
+	background: #49463C;
+	position: relative;
+}
+.lys_btenglish{
+	color: #fff;
+	font-size: 12px;
+}
+.lys_btxian i{
+	width: 0.36rem;
+	height: 0.06rem;
+	background: #fff;
+	position: absolute;
+	top: 0rem;
+	font-style: normal;
+	left: 0.069rem;
+}
+.lys_fsbtinner{
+	font-style: normal;
+	font-family: "苹方";
+}
+.lys_fsbt{
+	font-style: normal;
+}
+.lys_fan img {
+    height: 0.38rem;
+}
+/*头部结束***********************************/

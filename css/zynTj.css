@@ -1,0 +1,359 @@
+@import url(base.css);
+* {
+  font-family: 'PingFang';
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #F6F6F6;
+}
+.zyn_gl_header {
+  width: 100%;
+  height: 0.96rem;
+  position: fixed;
+  z-index: 100;
+}
+.zyn_gl_header > .zhe {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zyn_gl_header > .zhe > .line {
+  width: 6.28rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.zyn_gl_header > .zhe > .shortLine {
+  width: 0.38rem;
+  height: 3px;
+  background: #ffffff;
+  position: absolute;
+  top: 0.16rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.zyn_gl_header > .zhe > .back {
+  width:0.45rem;
+  height:0.45rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.29rem;
+}
+.zyn_gl_header > .zhe > .back > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zyn_gl_header > .zhe > .back > a > img {
+  width: 100%;
+  height: 100%;
+}
+.zyn_gl_header > .zhe > .textBox {
+  width: 100%;
+  height: auto;
+  margin-top: 0.27rem;
+  text-align: center;
+}
+.zyn_gl_header > .zhe > .textBox > h3 {
+  color: #fff;
+  font-size: 0.24rem;
+  text-transform: uppercase;
+}
+.zynTjMain {
+  padding: 0.96rem 0 0.4rem;
+  width: 100%;
+  height: auto;
+}
+.zynTjMain .item1 {
+  width: 100%;
+  height: auto;
+  padding: 0.42rem 0.3rem 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zynTjMain .item1 .title {
+  width: 100%;
+  height: 0.32rem;
+}
+.zynTjMain .item1 .title .icon {
+  float: left;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.zynTjMain .item1 .title .icon img {
+  width: 100%;
+  height: 100%;
+}
+.zynTjMain .item1 .title h5 {
+  width: auto;
+  height: 100%;
+  float: left;
+  font-size: 0.24rem;
+  color: #8B8B8B;
+  font-weight: 200;
+  padding: 1px 3px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zynTjMain .item1 .title .en {
+  float: left;
+  width: 1.02rem;
+  height: 0.3rem;
+}
+.zynTjMain .item1 .title .en img {
+  width: 100%;
+  height: 100%;
+}
+.zynTjMain .item1 .itemUl {
+  width: 100%;
+  height: auto;
+  padding-top: 0.18rem;
+  overflow: hidden;
+}
+.zynTjMain .item1 .itemUl .itemLi1 {
+  float: left;
+  width: 50%;
+  height: 3.1rem;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float {
+  width: 3.37rem;
+  height: 2.76rem;
+  background: #fff;
+  border-radius: 0.15rem;
+  -webkit-box-shadow: 0 0 3px 1px #d5d5d5;
+  -moz-box-shadow: 0 0 3px 1px #d5d5d5;
+  box-shadow: 0 0 3px 1px #d5d5d5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .photo {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 0.15rem;
+  border-top-right-radius: 0.15rem;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .photo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.4rem;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .photo a h3 {
+  font-size: 0.3rem;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .photo a h6 {
+  font-weight: 100;
+  font-size: 0.1rem;
+  -webkit-text-size-adjust: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5px;
+}
+@media screen and (max-width: 320px){
+  .zynTjMain .item1 .itemUl .itemLi1 .itemList .float .photo a h6 {
+    width:110%;
+    margin-left: -5%;
+    font-size: 0.1rem;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox {
+  width: 100%;
+  height: 50%;
+  padding: 0.2rem 0.15rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox li {
+  width: 100%;
+  height: 0.24rem;
+  margin-bottom: 0.1rem;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox li a h3 {
+  height: 100%;
+  font-size: 0.24rem;
+  line-height: 0.24rem;
+  color: #858585;
+  font-weight: 600;
+}
+@media screen and (max-width: 320px) {
+  .zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox li a h3 {
+    height: 100%;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    line-height: 0.24rem;
+    font-size: 0.22rem;
+    color: #858585;
+    font-weight: 600;
+  }
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox li a h3 span {
+  font-size: 0.24rem;
+  font-weight: 900;
+  color: #000;
+}
+@media screen and (max-width: 320px){
+  .zynTjMain .item1 .itemUl .itemLi1 .itemList .float .textBox li a h3 span {
+    font-size: 0.20rem;
+    font-weight: 900;
+    color: #000;
+  }
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .bottom {
+  width: 3.15rem;
+  height: 0.35rem;
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
+  background: #DFDFDF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.zynTjMain .item1 .itemUl .itemLi1 .itemList .bottom p {
+  text-align: center;
+  line-height: 0.35rem;
+  color: #8D8D8D;
+  font-size: 0.18rem;
+}
+.zynTjMain .item2 {
+  padding: 0.42rem 0.1rem 0;
+}
+.zynTjMain .item2 .itemUl {
+  width: 100%;
+  height: auto;
+  padding-top: 0.18rem;
+}
+.zynTjMain .item2 .itemUl .itemLi2 {
+  width: 100%;
+  height: 1.44rem;
+  padding: 0.04rem 0.1rem;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  /*padding:0.08rem 0.06rem;*/
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 #ccc;
+  border-radius: 0.15rem;
+  position: relative;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .photoBox {
+  width: 1.13rem;
+  height: 1.2rem;
+  margin: 0.08rem;
+  /*padding:.0.08rem 0;*/
+  border-radius: 0.15rem;
+  float: left;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox {
+  height: 100%;
+  float: left;
+  max-width: 60%;
+  padding: 5px;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox h3 {
+  font-size: 0.28rem;
+  color: #525252;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox h6 {
+  font-size: 0.24rem;
+  color: #8F8F8F;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox h6 span {
+  font-weight: 100;
+  font-size: 0.24rem;
+  color: #8F8F8F;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox .iconBox {
+  width: 100%;
+  height: 0.18rem;
+  margin-top: 3px;
+  text-align: justify;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox .iconBox .icons {
+  display: inline-block;
+  height: 100%;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox .iconBox .icons img {
+  width: auto;
+  height: 100%;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .textBox .iconBox .icons span {
+  font-size: 0.18rem;
+  color: #8F8F8F;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .starBox {
+  float: right;
+  margin-right: 0.2rem;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .starBox li {
+  width: 0.2rem;
+  height: 0.2rem;
+  float: left;
+  margin-right: 2px;
+}
+.zynTjMain .item2 .itemUl .itemLi2 .items2 .starBox li img {
+  width: 100%;
+  height: 100%;
+}

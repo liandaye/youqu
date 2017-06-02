@@ -1,0 +1,168 @@
+@import url('base.css');
+* {
+  font-family: pingfang;
+}
+.zyn_gl_header {
+  width: 100%;
+  height: 0.96rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.zyn_gl_header > .zhe {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+  padding-top: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zyn_gl_header > .zhe > .line {
+  width: 6.28rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.zyn_gl_header > .zhe > .back {
+  width:0.45rem;
+  height:0.45rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.29rem;
+}
+.zyn_gl_header > .zhe > .back > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zyn_gl_header > .zhe > .back > a > img {
+  width: 100%;
+  height: 100%;
+}
+.zyn_gl_header > .zhe > .textBox {
+  width: 100%;
+  height: auto;
+  margin-top: 0.27rem;
+  text-align: center;
+}
+.zyn_gl_header > .zhe > .textBox > input {
+  width: 5.58rem;
+  height: 0.5rem;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 0.1rem;
+  background: #fff;
+  padding-left: 0.4rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.24rem;
+  line-height: 0.5rem;
+  color: #333333;
+}
+.zyn_gl_header > .zhe > .line > .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: -2px;
+  z-index: 1;
+}
+.zynGroupEr {
+  width: 100%;
+  height: auto;
+  margin-top: 0.66rem;
+}
+.zynGroupEr .itemBox {
+  width: 100%;
+  height: auto;
+  padding: 0.42rem 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.zynGroupEr .itemBox li {
+  width: 100%;
+  height: 4.15rem;
+}
+.zynGroupEr .itemBox li .items {
+  width: 7.02rem;
+  height: 3.95rem;
+  margin: 0.1rem auto;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  position: relative;
+}
+.zynGroupEr .itemBox li .items a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zynGroupEr .itemBox li .items img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+.zynGroupEr .itemBox li .items .mask {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.32rem;
+  padding: 0.33rem 0.23rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+.zynGroupEr .itemBox li .items .mask .left {
+  float: left;
+}
+.zynGroupEr .itemBox li .items .mask .left h2 {
+  height: 0.42rem;
+  font-size: 0.36rem;
+  line-height: 0.42rem;
+  color: #fff;
+  font-weight: 500;
+}
+.zynGroupEr .itemBox li .items .mask .left h2 span {
+  height: 100%;
+  line-height: 0.42rem;
+  color: #FCC71F;
+  font-size: 0.36rem;
+  font-weight: 800;
+}
+.zynGroupEr .itemBox li .items .mask .left h5 {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.zynGroupEr .itemBox li .items .mask .left h5 span {
+  height: 100%;
+  line-height: 0.3rem;
+  color: #FCC71F;
+  font-size: 0.24rem;
+  font-weight: 400;
+}
+.zynGroupEr .itemBox li .items .mask .right {
+  float: right;
+  color: #fff;
+  line-height: 1rem;
+  font-size: 0.24rem;
+}

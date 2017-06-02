@@ -1,0 +1,930 @@
+/*@import url(../base.css)*/
+/*我的收藏版块开始*/
+body{
+    background-color: #EFEDEE;
+}
+*{
+    font-family: "苹方";
+}
+i,em{
+    font-style: normal;
+}
+.Nkuang{
+    padding: 0 0.2rem;
+}
+.back1{
+    background: url("../image/zby_52.png") no-repeat center center/cover;
+}
+.back2{
+    background: url("../image/zby_53.png") no-repeat center center/cover;
+}
+.back3{
+    background: url("../image/zby_54.png") no-repeat ;
+    background-position: center 0;
+    background-size: cover;
+}
+.zby_hot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.zby_Mebox{
+    padding-top:1.1rem;;
+    height: auto;
+
+}
+.zby_Bej{
+
+    width:100%;
+    height:5.8rem;
+    background:url("../image/zby_17.png") ;
+    background-position: center center ;
+    background-size: cover;
+    padding-top: 0.26rem;
+}
+.zby_ni{
+    padding-top: 0.92rem;
+}
+.zby_jing{
+        background: url(../image/lys_01.jpg) no-repeat center center/cover;
+}
+.zby_Header{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zby_Header .zby_Tuwe{
+    width:0.4rem;
+    height: 0.4rem;
+    border: 2px solid #FFFDFA;
+    border-radius: 50%;
+    background: #FF4843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem;
+}
+.zby_Header .zby_Tuwe img{
+    width:0.2rem;
+    height:0.2rem;
+}
+.zby_Header .zby_img img{
+    width: 0.2rem;
+    height: 0.16rem;
+}
+.zby_Header .zby_Tox{
+    width: 1.58rem;
+    height: 1.58rem;
+    border: 2px solid #FFFDFA;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+}
+.zby_Header .zby_Tox img{
+    width:100%;
+    height:100%;
+}
+.zby_Ziliao{
+    width:100%;
+    height: auto;
+    text-align: center;
+}
+.zby_Ziliao .zby_Xin{
+    margin-top: 0.1rem;
+    display: inline-block;
+    width:0.2rem;
+    height:0.2rem;
+    background: url("../image/zby_4_01.png") no-repeat center center/cover;
+}
+.zby_Ziliao .zby_Name{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0.14rem;
+    font-size: 20px;
+    color: #ffffff;
+}
+.zby_Ziliao .zby_Ename{
+    width: 100%;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 0;
+}
+.zby_Ziliao .zby_Qianmi{
+    font-size: 12px;
+    display: inline-block;
+    margin: 0.26rem 0;
+    color: #ffffff;
+}
+.zby_Ziliao .zby_Gps{
+    display: inline-block;
+    width: 0.19rem;
+    height: 0.25rem;
+    background: url("../image/zby_5.png") no-repeat center center/cover;
+    margin-right: 0.12rem;
+}
+.zby_Ziliao .zby_Wzhi{
+    display: inline-block;
+    font-size: 10px;
+    color: #ffffff;
+    margin-left: 0.12rem;
+}
+.zby_Mnei{
+    margin-top: -1rem;
+    width:100%;
+    height: auto;
+    z-index: 9;
+}
+.zby_Mnei .zby_Mgon{
+    background: #ffffff;
+    width: 100%;
+    height:100%;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi{
+    width: 100%;
+    height:100%;
+    padding: 0.26rem 0.42rem;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis{
+    flex-basis: 33.333333%;
+    padding: 0.37rem;
+
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis a{
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis a .zby_Rice {
+    display: inline-flex;
+    width: 1.1rem;
+    height: 1rem;
+    /*border-radius: 50%;*/
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis a .zby_Rice img{
+    width:0.4rem;
+    height:0.46rem;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis a .zby_Shbox{
+    width: 100%;
+    height:1rem;
+    background: red;
+    margin-top: -0.2rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem #cccccc inset;
+
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis a .zby_Ti1{
+    font-size: 14px;
+    color: #474747;
+}
+.zby_Mnei .zby_Mgon .zby_Mzbi .zby_MzTop .zby_lis a .zby_Ti2{
+    font-size: 10px;
+    color: #474747;
+}
+.zby_MzBotm{
+    width:100%;
+    height: auto;
+}
+.zby_MzBotm .zby_lis{
+    width:100%;
+    height: auto;
+    border-bottom: 1px solid #DADADA;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.26rem 0 0.16rem 0;
+}
+
+.zby_MzBotm .zby_lis .zby_lileft{
+      width: auto;
+      height: auto;
+        display:inline-flex;
+      align-items: center;
+    color: #474747;
+
+}
+.zby_MzBotm .zby_lis .zby_lileft img{
+
+}
+.zby_MzBotm .zby_lis .zby_lileft span{
+    margin-left: 0.14rem;
+}
+.zby_MzBotm .zby_lis .zby_lileft .zby_met1{
+    font-size: 14px;
+}
+.zby_MzBotm .zby_lis .zby_lileft .zby_met2{
+    font-size: 10px;
+}
+.zby_MzBotm .zby_lis .zby_liright{
+    width: auto;
+    height: auto;
+        display:inline-flex;
+    align-items: center;
+}
+.zby_MzBotm .zby_lis .zby_liright .zby_met3{
+    font-size: 10px;
+    color: #6c6c6c;
+    margin-right: 0.2rem;
+}
+.zby_MzBotm .zby_lis .zby_liright .zby_jin{
+    width:0.34rem;
+    height: 0.34rem;
+    background: url("../image/zby_16.png") no-repeat center center/cover;
+}
+.zby_Mzbi .zby_xian{
+    margin-top: 1rem;
+    margin-bottom: 0.24rem;
+    width: 100%;
+    height: auto;
+}
+.zby_Mzbi .zby_xian .zby_lxain{
+    width: 1.4rem;
+    border-top: 1px solid #ABABAB;
+}
+.zby_Mzbi .zby_xian .zby_lain{
+    font-size: 12px;
+    color: #696969;
+    margin: 0 0.4rem;
+}
+.zby_Mzbi .zby_QWW{
+    width:100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.zby_Mzbi .zby_QWW .zby_items {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    border: 1px solid #F0F0F0;
+    /*background: red;*/
+    margin: 0 0.38rem;
+}
+.zby_img1{
+    background: url("../image/zby_13.png") no-repeat center center;
+    background-size: 0.31rem 0.33rem;
+}
+.zby_img2{
+    background: url("../image/zby_14.png") no-repeat center center;
+    background-size: 0.42rem 0.34rem;
+}
+.zby_img3{
+    background: url("../image/zby_15.png") no-repeat center center;
+    background-size: 0.43rem 0.35rem;
+}
+/*我的收藏版块开始*/
+.Method_Box{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-bottom: 1.1rem;
+}
+
+/*个人资料开始*/
+.Method_Box .zby_st{
+    width: 100%;
+    height: 4.4rem;
+    background: url("../image/zby_18.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 1.7rem;
+    margin-bottom: 2rem;
+}
+.Method_Box .zby_st .zby_stm{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Method_Box .zby_st .zby_stm a {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border:1px solid #ffffff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.Method_Box .zby_st .zby_stm a img{
+    width: 100%;
+    height: 100%;
+}
+.Method_Box .zby_st .zby_stm .zby_Scz{
+    margin-top: 0.1rem;
+    font-size: 22px;
+    color: #6e6e6e;
+}
+.Method_Box .zby_st .zby_stm .zby_Scxz{
+    font-size: 10px;
+    color: #6e6e6e;
+}
+.Method_Box .zby_st .zby_stm .zby_Scqian{
+    margin-top: 0.2rem;
+    font-size: 10px;
+    color: #6e6e6e;
+}
+/*个人资料结束*/
+
+/*个人动态开始*/
+.Method_Box .zby_MeDtai{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.6rem;
+}
+.zby_MeDtai .zby_Dtop{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft .zby_Tx{
+    display: block;
+    width: 0.94rem;
+    height: 100%;
+    background: #ffffff;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft .zby_Tx img{
+    width: 100%;
+    height: 100%;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft  .zby_Ttile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.2rem;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft .zby_Ttile .zby_Tmi{
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft  .zby_Ttile .zby_Txian{
+    width: 1.7rem;
+    border-bottom: 1px solid #6e6e6e;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft  .zby_Ttile .zby_Tss{
+    font-size: 10px;
+    color: #7B7B7B;
+    margin-top: 0.1rem;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtleft  .zby_Ttile .zby_Tlo{
+    width: 0.76rem;
+    height: 0.24rem;
+    background: url("../image/zby_20.png");
+    background-size: cover;
+    margin-top: 0.06rem;
+}
+.zby_MeDtai .zby_Dtop .zby_Dtright{
+    width: auto;
+    height: 100%;
+    display: flex;
+    /*justify-content: flex-end;*/
+    flex-direction: column;
+}
+.zby_Dtright .zby_Drt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.back4{
+    background: #F46E2F;
+}
+.back5{
+    background: #FEDA22;
+}
+.zby_Dtright .zby_Drt .zby_dian{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+}
+.zby_Dtright .zby_Drt .zby_Date,.zby_Dshm{
+    font-size: 12px;
+    color: #9A9A9A;
+}
+.zby_Dtright .zby_Drt .zby_Dshm{
+    margin-left: 0.1rem;
+}
+.zby_Dtright .zby_Dbotbox{
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.zby_urlz1{
+    background: url("../image/zby_21.png") no-repeat center center;
+    /*background-size: cover;*/
+      background-size: 0.84rem 0.24rem;
+}
+.zby_urlz2{
+    background: url("../image/zby_36.png") no-repeat center center;
+    background-size: 0.84rem 0.24rem;
+}
+.zby_urlz1{
+    background: url("../image/zby_21.png") no-repeat center center;
+    /*background-size: cover;*/
+      background-size: 0.84rem 0.24rem;
+}
+.zby_Dtright .zby_Dbotbox .zby_Dbot{
+    width: 0.84rem;
+    height: 0.24rem;
+    margin-bottom: 0.04rem;
+    align-self: flex-end;
+}
+.zby_Dcontent{
+    width:100%;
+    height: 2.9rem;
+    margin: 0.3rem 0 0.22rem 0;
+}
+.zby_Dcontent .zby_Img{
+    width:100%;
+    height: 2.9rem;
+    background: url("../image/zby_23.jpg") no-repeat center center/cover;
+}
+.zby_Dcontent .zby_Img span{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: url("../image/zby_22.png") no-repeat center center/cover;
+}
+
+.zby_MeDtai .zby_Dxian{
+    width: 100%;
+    border-bottom: 1px solid #A2A2A2;
+}
+.zby_MeDtai .zby_Dbotm{
+    width:100%;
+    height:1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zby_MeDtai .zby_Dbotm .zby_Dbleft{
+    width: 100%;
+    height: auto;
+}
+.zby_MeDtai .zby_Dbotm .zby_Dbleft .zby_Ditems{
+    display: flex;
+    width: 1.5rem;
+    height: 0.59rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.zby_ul1{
+    background: url("../image/zby_24.jpg") no-repeat center center/cover;
+}
+.zby_ul2{
+    margin-left: 0.2rem;
+    background: url("../image/zby_25.jpg") no-repeat center center/cover;
+}
+.zby_ul3{
+    background: url("../image/zby_24_1.png") no-repeat center center/cover;
+}
+.zby_ul4{
+    background: url("../image/zby_25_1.png") no-repeat center center/cover;
+}
+.zby_MeDtai .zby_Dbotm .zby_Dbleft{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.zby_MeDtai .zby_Dbotm .zby_Dbleft .zby_Ditems .zby_Dz{
+    /*display: inline-flex;*/
+    width:0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    margin-right: 0.2rem;
+}
+
+.zby_MeDtai .zby_Dbotm .zby_Dbleft{
+    width: 100%;
+    height: auto;
+}
+.zby_MeDtai .zby_Dbotm .zby_Dbleft .zby_Ditems .zby_Dshu{
+    font-size: 12px;
+    color: #ffffff;
+}
+.zby_Dbotm .zby_Dbright{
+    width: auto;
+    display: flex;
+}
+.zby_Dbright .zby_fen{
+    display: inline-flex;
+    width: 0.52rem;
+    height: 0.52rem;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin-right: -0.14rem;
+}
+.zby_Dbright .zby_fen:last-child{
+    margin-right: 0;
+}
+.zby_Dbright .zby_fen img{
+    width: 100%;
+    height: 100%;
+}
+.zby_url1{
+    background: url("../image/zby_26.jpg") no-repeat center center/cover;
+}
+.zby_url2{
+    background: url("../image/zby_27.jpg") no-repeat center center/cover;
+}
+.zby_url3{
+    background: url("../image/zby_28.jpg") no-repeat center center/cover;
+}
+.zby_url4{
+    background: url("../image/zby_29.jpg") no-repeat center center/cover;
+}
+
+.zby_Dcontent .zby_Dimg{
+    width: 100%;
+    height: 2.86rem;
+}
+.zby_Dcontent .zby_Dimg .zby_Dim1{
+    /*width: 2.95rem;*/
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcon{
+    float: left;
+    width: 40%;
+    height: 100%;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+.zby_bian{
+    border-right: 2px solid #ffffff;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcon .zby_Dct{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 1.28rem;
+}
+
+.zby_Dcontent .zby_Dimg .zby_Dcon .zby_Dct img{
+    width:100%;
+    height: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcon .zby_Dcob{
+    float: left;
+    display: block;
+    width: 100%;
+    /*height: 1.54rem;*/
+    border-top: 2px solid #ffffff;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcon .zby_Dcob img{
+    width:100%;
+    height: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcr{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dim1 .zby_a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dim1 .zby_a img{
+    width: 100%;
+    height: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcr .zby_Dcrt{
+    float: left;
+    display: block;
+    width: 100%;
+    height: 1.28rem;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcr .zby_Dcrt img{
+    width: 100%;
+    height: 100%;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcr .zby_Dcrb{
+    float: left;
+    display: block;
+    width: 100%;
+    height:1.58rem;
+    overflow: hidden;
+    border-top: 2px  solid #ffffff;
+}
+.zby_Dcontent .zby_Dimg .zby_Dcr .zby_Dcrb img{
+    width: 100%;
+    height: 100%;
+}
+.zby_Dcon .zby_Dconimg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.zby_Dcon .zby_Dconimg img{
+    width: 100%;
+    height: 100%;
+}
+/*个人动态结束*/
+/*我的图片详情开始*/
+/*html,body{*/
+    /*height: 100%;*/
+/*}*/
+.zby_lunbo{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(0,0,0,0.8);
+    /*display: none;*/
+    opacity: 1;
+    transition: all .5s;
+}
+.zby_boxtop{
+    width: 100%;
+    height: 24%;
+}
+.zby_lun{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*font-size: 0;*/
+}
+/*.zby_lun img{
+    width: 100%;
+    height: 100%;
+}*/
+.zby_boxbotm{
+    width: 100%;
+    height: 34%;
+}
+.swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #ffffff;
+}
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #B8B8B8;
+    /*opacity: .2;*/
+}
+.zby_hidden{
+    z-index:  -1;
+    opacity: 0;
+}
+.zby_center{
+    text-align: center;
+}
+.swiper-container,.swiper-container2,.swiper-container3{
+    width: 100%;
+    height: 46%;
+}
+.zby_lun{
+    width: 100%;
+    height: 100%;
+    
+}  
+/*我的图片详情结束*/
+
+/*分享开始*/
+.zby_Fbox{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background: rgba(0,0,0,.8);
+    transition: all .5s;
+    opacity: 0;
+
+}
+.zby_Fbox .zby_Fnb{
+    width: 100%;
+    height:auto;
+    position: absolute;
+    bottom: 0;
+    transition: all .5s;
+
+}
+.zby_Fbox .zby_Fnb .zby_Flis{
+    display: inline-block;
+    width: 100%;
+    height: 0.61rem;
+    text-align: center;
+    line-height: 0.61rem;
+    font-size: 12px;
+    color: #343333;
+    background: #EEEEEE;
+    border-bottom: 1px solid #B8B8B8;
+}
+.zby_brtop{
+    margin-top:0.1rem ;
+    border-bottom:0!important;
+}
+.zby_active{
+    height: 0;
+    overflow: hidden;
+
+}
+/*分享结束*/
+
+
+/*我的收藏版块开始*/
+
+
+/*消息版块开始*/
+.zby_xiao{
+    width: 100%;
+    height: auto;
+    padding: 1.1rem 0.2rem 0;
+}
+.zby_xiao .zby_xibox{
+    width: 100%;
+    height: auto;
+    padding-top: 0.4rem;
+}
+.zby_xiao .zby_xibox .zby_xitem{
+    width: 100%;
+    height: 1rem;
+    border-radius:0.04rem;
+    background: #ffffff;
+    margin-top: 0.1rem;
+    -webkit-box-shadow: 0 0 0.06rem #757575;
+    -moz-box-shadow: 0 0 0.06rem #757575;
+    box-shadow: 0 0 0.06rem #757575;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zleft{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items:center;
+    margin-left: 0.2rem;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zleft img{
+    width: 0.68rem;
+    height: 0.68rem;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zleft .zby_xtopbox{
+    display: inline-flex;
+    flex-direction:column;
+    margin-left: 0.4rem;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zleft .zby_xtopbox .zby_xtbox{
+    font-size: 16px;
+    color: #818181;
+    font-weight: bold;
+    display: inline-flex;
+    align-items:center;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zleft .zby_xtopbox .zby_xtbox i{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+}
+.zby_xbom{
+    font-size: 12px;
+    color: #969696;
+    margin-top: 0.06rem;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zlright{
+    width: 0.74rem;
+    height: 0.44rem;
+    background: url("../image/zby_58.jpg") no-repeat center center/cover;
+    text-align: center;
+    line-height: 0.44rem;
+    font-size: 10px;
+    color: #ffffff;
+    margin-right: 0.1rem;
+}
+.zby_green{
+    background: #129C44;
+    margin-left: 0.1rem;
+}
+.zby_yeo{
+    background: #F9D03A;
+    margin-left: 0.05rem;
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zxright{
+    background: url('1');
+}
+.zby_xiao .zby_xibox .zby_xitem .zby_xaie .zby_zxright img{
+    width:0.17rem;
+    height: 0.3rem;
+}
+/*消息版块结束 */
+
+/*系统消息版块开始*/
+.zby_xtx{
+    width: 100%;
+    height: auto;
+    padding-top: 1.1rem;
+}
+.zby_xtx .zby_xtxbox{
+    width: 100%;
+    height: auto;
+    padding: 0 0.2rem;
+}
+.zby_xtx .zby_xtxbox .zby_xtdate{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 10px;
+    color: #626262;
+}
+.zby_xtx .zby_xtxbox .zby_xtxcot{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background: #ffffff;
+    padding: 0.24rem 0 0 0;
+     -webkit-box-shadow: 0 0 0.06rem #E4E4E4;
+    -moz-box-shadow: 0 0 0.06rem #E4E4E4;
+    box-shadow: 0 0 0.06rem #E4E4E4;
+}
+.zby_xtx .zby_xtxbox .zby_xtxcot .zby_xtxtile{
+    font-size: 14px;
+    font-weight: bold;
+    color: #6F6F6F;
+    display: flex;
+    align-items:center;
+    padding-left: 0.24rem;
+}
+.zby_xtx .zby_xtxbox .zby_xtxcot .zby_xtxtile i{
+   
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    
+}
+.zby_xtx .zby_xtxbox .zby_xtxcot  .zby_xtxcont{
+    font-size: 12px;
+    color: #A7A7A7;
+    line-height: 1.6em;
+    text-align: justify;
+    padding: 0.26rem 0.24rem 0.56rem 0.24rem;
+}
+.zby_xtxbox .zby_xtxbot{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #10394F;
+    font-weight: bold;
+    margin-top: 0.24rem;
+
+}
+.zby_xtxbox .zby_xtxbom{
+    width: 100%;
+    /*height: 0.5rem;*/
+    border-top: 1px solid #CECECE;
+    /*line-height: 0.5rem;*/
+    text-align:right;
+    padding: 0.16rem 0;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right: 0.1rem;
+}
+.zby_xtxbox .zby_xtxbom .zby_xtxch{
+    font-size: 10px;
+    color: #646464;
+    font-weight:bold;
+    margin-right: 0.1rem;
+}
+.zby_xtxbox .zby_xtxbom .zby_xtxji{
+    width: 0.1rem;
+    height: 0.15rem;
+    background: url('../image/zby_59.jpg') no-repeat center center/cover;
+}
+.zby_xtxxqi{
+    text-align: justify;
+    padding-right: 0.24rem!important;
+}
+/*系统消息版块结束*/
